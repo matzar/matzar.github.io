@@ -34,17 +34,17 @@ links:
     - title: home
       url: /
       key_trigger: 1
-    - title: cv
-      url: /cv
+    - title: my posts
+      url: /posts
       key_trigger: 2
-    - title: opengl
-      url: /opengl
+    - title: series
+      url: /series
       key_trigger: 3
-    - title: sharding
-      url: /sharding
+    - title: tags
+      url: /tags
       key_trigger: 4
-    - title: about psvita
-      url: /psvita
+    - title: about me
+      url: /about
       key_trigger: 5
   section_2:
     - title: github
