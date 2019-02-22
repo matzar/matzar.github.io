@@ -60,9 +60,6 @@ links:
       key_trigger: s #WARNING: search only works with "s"
   section_3:
     - title: cv
-      url: /2016-02-10-cv
-      key_trigger: 6
-    - title: cv
       url: /cv
       key_trigger: 7
 
