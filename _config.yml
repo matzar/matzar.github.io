@@ -38,12 +38,12 @@ links:
       url: /posts
       key_trigger: 2
     - title: series
-      url: /series
+      url: /projects
       key_trigger: 3
-    - title: projects
+    - title: tags
       url: /tags
       key_trigger: 4
-    - title: git for projects
+    - title: projects @ github
       url: /about
       key_trigger: 5
   section_2:
@@ -65,6 +65,11 @@ links:
 
 # projects in header index
 projects:
+  - name: PSVita Game
+    url: https://github.com/matzar/PSVita-Game
+
+# individual projects in header index
+individual_projects:
   - name: PSVita Game
     url: https://github.com/matzar/PSVita-Game
 
