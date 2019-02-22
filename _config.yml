@@ -70,8 +70,8 @@ projects:
 
 # individual projects in header index
 individual_projects:
-  - name: PSVita Game
-    url: https://github.com/matzar/PSVita-Game
+  - name: Timex
+    url: https://github.com/RetrospectAbertay/Lit
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
