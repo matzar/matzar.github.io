@@ -72,6 +72,10 @@ game_jams:
 projects:
   - name: Timex
     url: https://github.com/RetrospectAbertay/Lit
+  - name: Space Whales
+    url: https://github.com/GeorgeRankin/space-whales
+  - name: Rhythm Game
+    url: https://github.com/jctwood/EGD-RhythmGame
   
 # individual projects in header index
 individual_projects:
