@@ -1,0 +1,64 @@
+# Site settings
+title: Mateusz Zaremba
+description: "Portfolio"
+baseurl: "https://matzar.github.io" # for test: remove string '/space-jekyll-template' to ''
+url: "https://matzar.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+# User settings
+username: matzar
+user_title: Mateusz Zaremba
+email: matzaremba@icloud.com
+twitter_username: jollyjellycoco
+github_username:  matzar
+#gplus_username:  loremipsum
+linkedin_public_url: mateusz-zaremba # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
+#disqus_username: loremipsum
+profile_picture: https://mateuszzaremba.weebly.com/uploads/1/0/0/2/100293996/editor/img-1580.jpg?1518114932
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  - title: home
+    url: /
+  - title: my posts
+    url: /posts
+  - title: series
+    url: /series
+  - title: tags
+    url: /tags
+  - title: about me
+    url: /about
+
+# projects in header index
+projects:
+  - name: mandelbrot-amp
+    url: https://matzar.github.io/mandelbrot-amp/
+  - name: opengl
+    url: https://matzar.github.io/opengl/
+  - name: battle-city-gba
+    url: https://github.com/matzar/battle-city-gba
+  - name: darts-game
+    url: https://github.com/matzar/darts-game
+  - name: mayan-kitchen
+    url: https://github.com/matzar/mayan-kitchen
+  - name: dragon-maze-the-game
+    url: https://github.com/matzar/dragon-maze-the-game
+  - name: space-whales
+    url: https://github.com/GeorgeRankin/space-whales
+  - name: infinite-runner
+    url: https://github.com/matzar/infinite-runner
+#  - name:
+#    url:
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']

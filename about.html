@@ -1,0 +1,18 @@
+---
+layout: minimal
+title: "About me"
+permalink: /about/index.html
+description: "Some description about Matthew Wallace"
+---
+
+<img itemprop="image" class="img-rounded about_perfil" src=" https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAxyAAAAJGU4M2NkYTI4LTRjYjctNDc3Ny05NTc3LTBmZThlZDYxYjdhNA.jpg" alt="My profile">
+
+<h2>My projects</h2>
+
+<div class="aboutme">
+	<ul class="recent">
+		{% for project in site.projects %}
+	    	<li><a href="{{ project.url}}"><h3 class="project-name" itemprop="name">{{ project.name }}</h3></a></li>
+	    {% endfor %}
+	</ul>
+</div>
