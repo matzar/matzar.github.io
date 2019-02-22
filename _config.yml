@@ -1,16 +1,17 @@
 # Site settings
-title: Mateusz Zaremba
-description: "Portfolio"
-baseurl: "https://matzar.github.io" # for test: remove string '/space-jekyll-template' to ''
-url: "https://matzar.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+title: Lorem Ipsum - Web Developer
+description: "Mateusz Zaremba"
+baseurl: "" # for test: remove string '/space-jekyll-template' to ''
+url: "http://matzar.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
+
 # User settings
-username: matzar
-user_title: Mateusz Zaremba
+username: Mateusz Zaremba
+user_title: matzar
 email: matzaremba@icloud.com
 twitter_username: jollyjellycoco
 github_username:  matzar
 #gplus_username:  loremipsum
-linkedin_public_url: mateusz-zaremba # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
+linkedin_public_url: https://www.linkedin.com/in/mateusz-zaremba/ # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
 #disqus_username: loremipsum
 profile_picture: https://mateuszzaremba.weebly.com/uploads/1/0/0/2/100293996/editor/img-1580.jpg?1518114932
 
@@ -18,7 +19,6 @@ profile_picture: https://mateuszzaremba.weebly.com/uploads/1/0/0/2/100293996/edi
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
-
 
 # html minify
 compress_html:
@@ -29,36 +29,42 @@ compress_html:
 
 # Links to include in menu navigation
 links:
-  - title: home
-    url: /
-  - title: my posts
-    url: /posts
-  - title: series
-    url: /series
-  - title: tags
-    url: /tags
-  - title: about me
-    url: /about
+  section_1:
+    - title: home
+      url: /
+      key_trigger: 1
+    - title: my posts
+      url: /posts
+      key_trigger: 2
+    - title: series
+      url: /series
+      key_trigger: 3
+    - title: tags
+      url: /tags
+      key_trigger: 4
+    - title: about me
+      url: /about
+      key_trigger: 5
+  section_2:
+    - title: github
+      url: http://www.github.com/victorvoid
+      new_tab: true
+      key_trigger: g
+    - title: twitter
+      url: http://www.twitter.com/victorvoid
+      key_trigger: t
+    - title: search
+      url: ""
+      key_trigger: s #WARNING: search only works with "s"
 
 # projects in header index
 projects:
-  - name: mandelbrot-amp
-    url: https://matzar.github.io/mandelbrot-amp/
-  - name: opengl
-    url: https://matzar.github.io/opengl/
-  - name: battle-city-gba
-    url: https://github.com/matzar/battle-city-gba
-  - name: darts-game
-    url: https://github.com/matzar/darts-game
-  - name: mayan-kitchen
-    url: https://github.com/matzar/mayan-kitchen
-  - name: dragon-maze-the-game
-    url: https://github.com/matzar/dragon-maze-the-game
-  - name: space-whales
-    url: https://github.com/GeorgeRankin/space-whales
-  - name: infinite-runner
-    url: https://github.com/matzar/infinite-runner
-#  - name:
-#    url:
+  - name: fluany
+    url: https://github.com/fluany/fluany
+  - name: vim-frontend
+    url: https://github.com/victorvoid/vim-frontend
+  - name: generator-capybara
+    url: https://github.com/victorvoid/generator-capybara 
+
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
