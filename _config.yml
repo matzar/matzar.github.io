@@ -70,7 +70,9 @@ projects:
   - name: vim-frontend
     url: https://github.com/victorvoid/vim-frontend
   - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara 
+    url: https://github.com/victorvoid/generator-capybara
+  - name: PSVita Game
+    url: https://github.com/matzar/PSVita-Game
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
