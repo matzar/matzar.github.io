@@ -63,7 +63,7 @@ links:
       url: /2016-02-10-cv
       key_trigger: 6
     - title: cv
-      url: /https://matzar.github.io/cv/
+      url: /cv
       key_trigger: 7
 
 # projects in header index
