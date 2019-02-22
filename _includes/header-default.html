@@ -47,32 +47,32 @@
         </ul> -->
 
         <ul class="recent">
-            <p>Projects @ github:</p>
-             {% for project in site.projects limit:10%}
-                <li>
-                    <a title="Show my recent project" href="{{ project.url}}">
-                        <h2 class="post-title" itemprop="name">{{ project.name }}</h2>
-                    </a>
-                </li>
-              {% endfor %}
-        </ul>
-
-        <ul class="recent">
-            <p>Individual projects @ github:</p>
-             {% for project in site.individual_projects limit:10%}
-                <li>
-                    <a title="Show my recent project" href="{{ project.url}}">
-                        <h2 class="post-title" itemprop="name">{{ project.name }}</h2>
-                    </a>
-                </li>
-              {% endfor %}
-        </ul>
-
-        <ul class="recent">
-            <p>Individual projects @ github:</p>
+            <p>game jams @ github:</p>
              {% for project in site.game_jams limit:10%}
                 <li>
-                    <a title="Show my recent project" href="{{ project.url}}">
+                    <a title="Show game jams at github" href="{{ project.url}}">
+                        <h2 class="post-title" itemprop="name">{{ project.name }}</h2>
+                    </a>
+                </li>
+              {% endfor %}
+        </ul>
+
+        <ul class="recent">
+            <p>team projects @ github:</p>
+             {% for project in site.projects limit:10%}
+                <li>
+                    <a title="Show team projects at github" href="{{ project.url}}">
+                        <h2 class="post-title" itemprop="name">{{ project.name }}</h2>
+                    </a>
+                </li>
+              {% endfor %}
+        </ul>
+
+        <ul class="recent">
+            <p>individual projects @ github:</p>
+             {% for project in site.individual_projects limit:10%}
+                <li>
+                    <a title="Show individual projects at github" href="{{ project.url}}">
                         <h2 class="post-title" itemprop="name">{{ project.name }}</h2>
                     </a>
                 </li>
