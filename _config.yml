@@ -38,7 +38,7 @@ links:
       url: /posts
       key_trigger: 2
     - title: series
-      url: /projects
+      url: /series
       key_trigger: 3
     - title: tags
       url: /tags
