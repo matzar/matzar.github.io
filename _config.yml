@@ -40,10 +40,10 @@ links:
     - title: series
       url: /series
       key_trigger: 3
-    - title: tags
+    - title: projects
       url: /tags
       key_trigger: 4
-    - title: projects
+    - title: git for projects
       url: /about
       key_trigger: 5
   section_2:
@@ -61,16 +61,10 @@ links:
   section_3:
     - title: cv
       url: /cv
-      key_trigger: 7
+      key_trigger: 6
 
 # projects in header index
 projects:
-  - name: fluany
-    url: https://github.com/fluany/fluany
-  - name: vim-frontend
-    url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara
   - name: PSVita Game
     url: https://github.com/matzar/PSVita-Game
 
