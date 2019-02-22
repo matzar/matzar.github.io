@@ -65,25 +65,25 @@ links:
 
 # individual projects in header index
 game_jams:
-  - name: Serious game jam (Android Unity game)
+  - name: Serious game jam - Chemistry educational game (Android | Unity)
     url: https://github.com/matzar/Chemistry-Game-Jam
-  - name: 4-hour game jam (Ren'Py VN)
+  - name: 4-hour game jam - Visual novel (Windows | Ren'Py)
     url: https://github.com/matzar/ren-py
-  - name: 48-h game jam (Infinite runner)
+  - name: 48-h game jam - Infinite runner (Windows, WebGL | Unity)
     url: https://github.com/matzar/infinite-runner
 
 # projects in header index
 projects:
-  - name: Timex
+  - name: Timex (Windows | Unity)
     url: https://github.com/RetrospectAbertay/Lit
-  - name: Space Whales
+  - name: Space Whales (Windows | UE4)
     url: https://github.com/GeorgeRankin/space-whales
-  - name: Rhythm Game
+  - name: Rhythm Game (Windows | Unity)
     url: https://github.com/jctwood/EGD-RhythmGame
   
 # individual projects in header index
 individual_projects:
-  - name: PSVita Game
+  - name: PSVita Game (PSVita, Windows | C++/Box2D)
     url: https://github.com/matzar/PSVita-Game
 
 
