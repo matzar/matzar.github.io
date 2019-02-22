@@ -31,20 +31,20 @@ compress_html:
 # Links to include in menu navigation
 links:
   section_1:
-    - title: home
-      url: /
+    - title: cv
+      url: /cv
       key_trigger: 1
-    - title: my posts
-      url: /posts
+    - title: mandelbrotamp
+      url: /mandelbrotamp
       key_trigger: 2
-    - title: series
-      url: /series
+    - title: opengl
+      url: /opengl
       key_trigger: 3
-    - title: tags
-      url: /tags
+    - title: sharding
+      url: /sharding
       key_trigger: 4
-    - title: about me
-      url: /about
+    - title: about psvita
+      url: /psvita
       key_trigger: 5
   section_2:
     - title: github
