@@ -73,5 +73,10 @@ individual_projects:
   - name: Timex
     url: https://github.com/RetrospectAbertay/Lit
 
+# individual projects in header index
+game_jams:
+  - name: Infinite runner
+    url: https://github.com/matzar/infinite-runner
+
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
