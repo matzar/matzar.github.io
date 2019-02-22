@@ -58,6 +58,10 @@ links:
     - title: search
       url: ""
       key_trigger: s #WARNING: search only works with "s"
+  section_3:
+    - title: cv
+      url: /series
+      key_trigger: 6
 
 # projects in header index
 projects:
