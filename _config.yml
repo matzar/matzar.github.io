@@ -70,13 +70,13 @@ game_jams:
 
 # projects in header index
 projects:
-  - name: PSVita Game
-    url: https://github.com/matzar/PSVita-Game
-
-# individual projects in header index
-individual_projects:
   - name: Timex
     url: https://github.com/RetrospectAbertay/Lit
+  
+# individual projects in header index
+individual_projects:
+  - name: PSVita Game
+    url: https://github.com/matzar/PSVita-Game
 
 
 
