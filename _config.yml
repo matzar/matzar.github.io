@@ -81,7 +81,7 @@ projects:
     url: https://github.com/jctwood/EGD-RhythmGame
   
 # individual projects in header index
-individual_projects:
+indv:
   - name: PSVita Game
     url: /psvita
   - name: SFML Networking
