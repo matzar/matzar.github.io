@@ -64,8 +64,6 @@ links:
 
 # individual projects in header index
 projects:
-  - name: PSVita Game
-    url: /psvita
   - name: SFML Networking
     url: /sfml_networking
   - name: C++ AMP Mandelbrot set
