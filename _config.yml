@@ -84,6 +84,18 @@ projects:
 individual_projects:
   - name: PSVita Game
     url: /psvita
+  - name: SFML-Networking
+    url: /sfml_networking
+  - name: C++ AMP Mandelbrot set
+  url: /amp_mandelbrot
+  - name: OpenGL 1.1
+  url: /opengl
+  - name: DirectX 11 HLSL
+  url: /directx
+  - name: Game Boy Advance BATTLE CITY remake
+  url: /battle_city
+  - name: simple darts simulator
+  url: /darts_simulator
 
 
 
