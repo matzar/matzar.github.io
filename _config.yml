@@ -56,7 +56,7 @@ links:
       key_trigger: g
     - title: twitter
       url: http://www.twitter.com/jollyjellycoco
-      ew_tab: true
+      new_tab: true
       key_trigger: t
     - title: search
       url: ""
