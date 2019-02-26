@@ -82,8 +82,8 @@ projects:
   
 # individual projects in header index
 individual_projects:
-  - name: PSVita Game (PSVita, Windows | C++/Box2D)
-    url: https://github.com/matzar/PSVita-Game
+  - name: PSVita Game
+    url: /psvita
 
 
 
