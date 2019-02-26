@@ -78,6 +78,8 @@ projects:
     url: /battle_city
   - name: simple darts simulator
     url: /darts_simulator
+  - name: My first Unity game
+    url: /dragon_maze
 
 # team projects
 team:
