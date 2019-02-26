@@ -40,13 +40,13 @@ Player2 Turn. Score: 120
 // Player's aim
 Aim Triple 20
 
-// What player hit(how many points) Score: current score = previous score - hit scire
+// What player hit(how many points) Score: current score = previous score - hit score
 Scored Triple 20(60) Score: 60 = 120 - 60
 
 // Player's aim
 Aim Bull
 
-// What player hit(how many points) Score: current score = previous score - hit scire
+// What player hit(how many points) Score: current score = previous score - hit score
 Scored Bull 50 Score: 0 = 50 - 50           
 
 {% endhighlight %}
