@@ -34,6 +34,20 @@ I have used OOD, inheritance and polymorphism. The program starts asking you how
 
 {% highlight javascript %}
 
+// Player's name and score
+Player2 Turn. Score: 120
+
+// Player's aim
+Aim Triple 20
+
+// What player hit(how many points) Score: current score = previous score - hit scire
+Scored Triple 20(60) Score: 60 = 120 - 60
+
+// Player's aim
+Aim Bull
+
+// What player hit(how many points) Score: current score = previous score - hit scire
+Scored Bull 50 Score: 0 = 50 - 50           
 
 {% endhighlight %}
 
@@ -41,7 +55,14 @@ I have used OOD, inheritance and polymorphism. The program starts asking you how
 
 {% highlight javascript %}
 
+Player1 Turn. Score: 132
+Aim Triple 20
+Scored Triple 20(60) Score: 72 = 132 - 60
+Aim Triple 20
+Scored Triple 20(60) Score: 12 = 72 - 60
+Aim Double 6
+Scored Double 6(12) Score: 0 = 12 - 12
 
 {% endhighlight %}
 
-The whole game is handled by the ‘Game’ class. The function member ‘Play’ calls ‘NineDartFinish’ function which receives vector of pointers to ‘GenericPlayer’, that points to the ‘Player’ object, which are created on the heap. It is possible because ‘Player’ class inherits from ‘GenericPlayer’ class so ‘Player’ object is also a member of ‘GenericPlayer’ class. It allows me to have functions that accept a pointer to ‘GenericPlayer’ and can work with either ‘Player’ or ‘GenericPlayer’ object. This approach allows me to easily add different types of players and also having the user to play with the computer would take a lot of less changes in the program.
+​The whole game is handled by the ‘Game’ class. The function member ‘Play’ calls ‘NineDartFinish’ function which receives vector of pointers to ‘GenericPlayer’, that points to the ‘Player’ object, which are created on the heap. It is possible because ‘Player’ class inherits from ‘GenericPlayer’ class so ‘Player’ object is also a member of ‘GenericPlayer’ class. It allows me to have functions that accept a pointer to ‘GenericPlayer’ and can work with either ‘Player’ or ‘GenericPlayer’ object. This approach allows me to easily add different types of players and also having the user to play with the computer would take a lot of less changes in the program.
