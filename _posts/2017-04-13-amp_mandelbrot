@@ -1,0 +1,177 @@
+---
+layout: post
+title:  "amp-mandelbrot"
+image: ''
+date:   2017-04-13 00:00:00
+tags:
+- C++
+- AMP
+- mandelbrot
+description: ''
+categories:
+- individual projects
+---
+
+{% highlight javascript %}
+
+Language: Visual C++, C++ AMP
+API: GLUT, SOIL
+Platform: Windows
+Workload: 170 hours
+Year/Semester: ​2nd/2nd
+Module: Data Structures and Algorithms 2 (2nd year/2nd term)
+​​Project made in Visual Studio 2015 and based on the framework made by Dr Paul Robertson.
+
+{% endhighlight %}
+
+<!-- YOTUUBE VIDEO 1 -->
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/xexwDTq1ajU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+<!-- YOTUUBE VIDEO 1 -->
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/HVdBNJrJzbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+<!-- YOTUUBE VIDEO 1 -->
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/OLoZ8CfuxEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+<!-- PRESENTATION -->
+<center><p>PRESENTATION</p></center>
+
+<!-- PIC 1 -->
+<figure class="foto-legenda">
+	<img src="{{ "/assets/img/amp-mandelbrot/1.png"}}" alt="">
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 2 -->
+<figure class="foto-legenda">
+	<img src="{{ "/assets/img/amp-mandelbrot/2.png"}}" alt="">
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 3 -->
+<figure class="foto-legenda">
+	<img src="{{ "/assets/img/amp-mandelbrot/3.png"}}" alt="">
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 4 -->
+<figure class="foto-legenda">
+	<img src="{{ "/assets/img/amp-mandelbrot/4.png"}}" alt="">
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 5 -->
+<figure class="foto-legenda">
+	<img src="{{ "/assets/img/amp-mandelbrot/5.png"}}" alt="">
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 6 -->
+<figure class="foto-legenda">
+	<img src="{{ "/assets/img/amp-mandelbrot/6.png"}}" alt="">
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 7 -->
+<figure class="foto-legenda">
+	<img src="{{ "/assets/img/amp-mandelbrot/7.png"}}" alt="">
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 8 -->
+<figure class="foto-legenda">
+	<img src="{{ "/assets/img/amp-mandelbrot/8.png"}}" alt="">
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 9 -->
+<figure class="foto-legenda">
+	<img src="{{ "/assets/img/amp-mandelbrot/9.png"}}" alt="">
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 10 -->
+<figure class="foto-legenda">
+	<img src="{{ "/assets/img/amp-mandelbrot/10.png"}}" alt="">
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 10 -->
+<figure class="foto-legenda">
+	<img src="{{ "/assets/img/amp-mandelbrot/10.png"}}" alt="">
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 10 -->
+<figure class="foto-legenda">
+	<img src="{{ "/assets/img/amp-mandelbrot/10.png"}}" alt="">
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 10 -->
+<figure class="foto-legenda">
+	<img src="{{ "/assets/img/amp-mandelbrot/10.png"}}" alt="">
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 10 -->
+<figure class="foto-legenda">
+	<img src="{{ "/assets/img/amp-mandelbrot/10.png"}}" alt="">
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 10 -->
+<figure class="foto-legenda">
+	<img src="{{ "/assets/img/amp-mandelbrot/10.png"}}" alt="">
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 10 -->
+<figure class="foto-legenda">
+	<img src="{{ "/assets/img/amp-mandelbrot/10.png"}}" alt="">
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 10 -->
+<figure class="foto-legenda">
+	<img src="{{ "/assets/img/amp-mandelbrot/10.png"}}" alt="">
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 10 -->
+<figure class="foto-legenda">
+	<img src="{{ "/assets/img/amp-mandelbrot/10.png"}}" alt="">
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 10 -->
+<figure class="foto-legenda">
+	<img src="{{ "/assets/img/amp-mandelbrot/10.png"}}" alt="">
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 10 -->
+<figure class="foto-legenda">
+	<img src="{{ "/assets/img/amp-mandelbrot/10.png"}}" alt="">
+	<figcaption> 
+	</figcaption>
+</figure>
