@@ -62,8 +62,10 @@ links:
       url: ""
       key_trigger: s #WARNING: search only works with "s"
 
-# individual projects in header index
+# projects in header index
 projects:
+  - name: PSVita Game
+    url: /psvita
   - name: SFML Networking
     url: /sfml_networking
   - name: C++ AMP Mandelbrot set
@@ -77,7 +79,6 @@ projects:
   - name: simple darts simulator
   url: /darts_simulator
 
-# projects in header index
 #projects:
 #  - name: Timex (Windows | Unity)
 #    url: https://github.com/RetrospectAbertay/Lit
