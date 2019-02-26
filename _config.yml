@@ -52,11 +52,9 @@ links:
       key_trigger: c
     - title: github
       url: http://www.github.com/matzar
-      new_tab: true
       key_trigger: g
     - title: twitter
       url: http://www.twitter.com/jollyjellycoco
-      new_tab: true
       key_trigger: t
     - title: search
       url: ""
