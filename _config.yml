@@ -84,7 +84,7 @@ projects:
 individual_projects:
   - name: PSVita Game
     url: /psvita
-  - name: SFML-Networking
+  - name: SFML Networking
     url: /sfml_networking
   - name: C++ AMP Mandelbrot set
   url: /amp_mandelbrot
