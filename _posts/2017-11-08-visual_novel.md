@@ -31,3 +31,17 @@ Characters - Amila Nuhodzic
 Environment - James Robinson <a target="_blank" href="https://twitter.com/SuperJerden">@SuperJerden</a>
 
 Code - Mateusz Zaremba
+
+<!-- PIC 1 -->
+<figure class="foto-legenda">
+	<img src="{{ "/assets/img/vn/1.png"}}" alt="">
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 2 - INSTRUCTIONS -->
+<figure class="foto-legenda">
+	<img src="{{ "/assets/img/vn/2.png"}}" alt="">
+	<figcaption> 
+	</figcaption>
+</figure>
