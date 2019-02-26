@@ -47,9 +47,9 @@ links:
       url: /about
       key_trigger: 5
   section_2:
-    - title: mail
-      url: matzaremba@icloud.com
-      key_trigger: m
+    - title: cv
+      url: /cv
+      key_trigger: c
     - title: github
       url: http://www.github.com/matzar
       new_tab: true
@@ -61,10 +61,6 @@ links:
     - title: search
       url: ""
       key_trigger: s #WARNING: search only works with "s"
-  section_3:
-    - title: cv
-      url: /cv
-      key_trigger: 6
 
 # individual projects in header index
 game_jams:
