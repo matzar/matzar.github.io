@@ -79,6 +79,11 @@ projects:
   - name: simple darts simulator
     url: /darts_simulator
 
+# team projects
+team:
+  - name: Global Game Jam 2016
+    url: /ggj2016
+
 #projects:
 #  - name: Timex (Windows | Unity)
 #    url: https://github.com/RetrospectAbertay/Lit
