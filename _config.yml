@@ -34,7 +34,7 @@ links:
     - title: home
       url: /
       key_trigger: 1
-    - title: my posts
+    - title: posts
       url: /posts
       key_trigger: 2
     - title: series
