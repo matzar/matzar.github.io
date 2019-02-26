@@ -34,8 +34,8 @@ Controllers: Keyboard
 <!-- YOTUUBE VIDEO 1 -->
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/8psz0Gav-f4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-<!-- PRESENTATOIN -->
-<center><p>PRESENTATOIN</p></center>
+<!-- PRESENTATION -->
+<center><p>PRESENTATION</p></center>
 
 <!-- PIC 1 -->
 <figure class="foto-legenda">
