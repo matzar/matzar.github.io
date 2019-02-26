@@ -60,7 +60,7 @@ links:
       key_trigger: s #WARNING: search only works with "s"
   section_3:
     - title: cv
-      url: /cv
+      url: /resume
       key_trigger: 6
 
 # individual projects in header index
