@@ -27,11 +27,11 @@ Year/Semester: 1st/1st
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8uQ6leX4g8c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
-## Overview
+## Description
 
-In this project I have focused on procedurally generated shapes while utilising various OpenGL techniques like: lighting, transparency, planar shadows, stencil buffer, texturing and texture filtering. As well as 3 different cameras; FPP camera, which allows unrestricted movement, in any direction, around the scene with mouse and keyboard control, top down camera (GTA like) and fixed-security camera. All three cameras inherit from a virtual 'Camera' class which allows for a single camera call in the 'Scene' class and easy switching between them. Also, makes adding different types of cameras, easier.
+I have used OOD, inheritance and polymorphism. The program starts asking you how many players you want to have, how to name them and have many games you want to simulate. Every simulation starts with “nearest the bull” game, to see who throws first. The winner is picked and the simulation continues in the established order, e.g.: if you have four players and ‘Player3’ won “nearest the bull” game he will start first and then accordingly ‘Player4’ (the program will loop the player’s vector to the beginning), ‘Player1’ and ‘Player2’. The simulation is based on the ‘Nine Darts Finish’ strategy. The players aim for the T20 to score the highest possible score which is 180. They keep aiming triple as long as it will leave them with the lowest and still possible to win score.  If it’s possible to win by aiming for the bull or the double (in this order) they will do it. Otherwise, they will keep aiming for the highest possible score. If the score is odd and it’s impossible to win by aiming for the double or the bull they will aim for the single to make it even but it will never be smaller than 2. In other words, if they keep missing, they will be left with the lowest winning score which is 2.  And if they bust the score will go back to the one they had before the turn started. The idea for the checkout was to that recreate a three 167s (T20-T19-Bull) which is considered a pure or perfect nine dart finish by some players and a 141 checkout (T20-T19-D12). It is possible to get a very similar effect in my program.
 
-### Camera setting
+### Here’s sample output of a checkout on the bull:
 
 {% highlight javascript %}
 
@@ -56,108 +56,29 @@ gluLookAt(camera->getPositionX(), camera->getPositionY(), camera->getPositionZ()
 
 {% endhighlight %}
 
-## Procedural Shape Generation
-
-The 'Shape' class handles all procedural shape generation and rendering functions. All shapes in the scene are procedurally generated and textured using UV coordinates of one texture only for each shape. This proved some challenges especially when it came to UV texturing of a cylinder but in the end I was really pleased with the result and managed to map all shapes with one texture. And all shapes are rendered with triangle primitives. The 'Shape' class allows for a procedural generation of the following shapes: a sphere, a cylinder, a cone, a disk, a torus and a butterfly curve.
-Here's an example of a shape building function call and its render function call.
-
-### Camera setting
+### Sample output of a checkout on the double (close to 141 checkout):
 
 {% highlight javascript %}
 
-Shape sphere;
+// scene header file
+Camera *camera;
+FreeCamera freeCamera;
+SecurityCamera securityCamera;
+TopDownCamera topDownCamera;
 
-sphere.buildSphere(GL_TRIANGLES,         // primitive
-    0.5f, 5.0f, 5.0f,                    // radius, latitude, longitude
-    Vector3(0.0f, 2.0f, 0.0f),           // translate x, translate y, translate z,
-    Vector3(1.0f, 1.0f, 1.0f),           // scale x, scale y, scale z,
-    Vector4(0.0, 0.0, 1.0, 0.0),         // rotation angle, rotation x, rotation y, rotation z
-    Vector4(1.0f, 1.0f, 1.0f, 1.0f),     // red, green, blue, alpha colour
-    earth_tex);                          // texture
-		
-sphere.render();
+// user input
+// if 1 pressed
+camera = &freeCamera;
+// if 2 pressed
+camera = &securityCamera;
+// if 3 pressed
+camera = &topDownCamera;
+
+// set the camera
+gluLookAt(camera->getPositionX(), camera->getPositionY(), camera->getPositionZ(),
+		camera->getLookAtX(), camera->getLookAtY(), camera->getLookAtZ(),
+		camera->getUpX(), camera->getUpY(), camera->getUpZ());
 
 {% endhighlight %}
 
-This way of building shapes, which puts all vertices,  normals and texture coordinates into separate vectors of floats allows for a single rendering function call which uses drawing arrays.
-
-## Features
-
-### 6 lights - 5 controllable by the user and 1 animated
-- point light
-- spot light
-- directional light
-- low attenuation light
-- red point light
-- green point light
-- animated blue light
-
-### 3 cameras
-- 'FPP camera'  - allows the user to control X, Y and Z axes with the keyboard and pitch and yaw with the mouse.
-- 'Security Camera' - procedural camera lerping 80 units to the left and 80 units back to the right. The user can take control over the camera and move it within the clamped area. It is also possible to control the camera while in the procedural mode. When the camera is set back to the procedural mode it picks up from where the user left it.
-- 'Top down camera' - fixed top down view. The user can move the camera along the X and Z axes. Y axis is fixed. 
-
-### Procedurally generated shapes
-- sphere
-- torus
-- cylinder
-- cone
-- disc
-- circle
-- butterfly
-
-### Solar system and use of
-- the matrix stack for hierarchical modelling and animation through hierarchical means.
-- the stencil buffer - the entire solar system is reflected in the scene's floor.
-
-### More
-- Procedural UV texturing and dynamic texture filtering
-- Transparency effects / Alpha blending
-- Vertex arrays
-- Models loaded in from an external file
-- Dynamic shadows
-- User interaction
-- Wireframe mode​
-
-## Instructions
-
-You will start with a free camera which allows you to freely explore the scene. Use `WSAD` and `mouse` to control the free camera. Press `1` whenever you want to choose this camera.
-
-Press `2` to switch to an automatic security camera. You can control it with WSAD when it is in an automatic mode or not. Press 'C' to toggle between the automatic mode.
-
-Press `3` to switch to a top down camera. Use `WSAD` to control it.
-
-Press keys `F1`, `F2`, `F3`, `F4`, `F5`, `F6` to toggle lights 0 - 5 on and off. Light number 6 is an animated point light with medium attenuation and blue colour.
-Use Arrow Keys to control the lights. Press `G` or `Page Up` to move in the positive direction on the z axis. Press `T` or `Page Down` to move in the negative direction on the z axis.
-
-Keys `F6` to `F12` control texture filtering which is applied only to the quad above the scene with the grass texture.
-​
-`F1` - Light 0 - spot light in -y direction and 45.0 degree cut off
-
-`F2` - Light 1 - directional light in positive x direction
-
-`F3` - Light 2 - low attenuation light
-
-`F4` - Light 3 - point light
-
-`F5` - Light 4 - point light - medium attenuation - red colour
-
-`F6` - Light 5 - point light - medium attenuation - green colour
-
-`F7` - Toggle Point Sampling
-
-`F8` - Toggle Bilinear Filtering
-
-`F9` - Toggle Mipmapping Filtering
-
-`F10` - Toggle Half Mipmapping Filtering
-
-`F11` - Toggle Half Trilinear Filtering
-
-`F12` - Toggle Trilinear Filtering
-
-`B` - toggle blend mode
-​
-`M` - toggle wireframe mode​
-
-`D`, `E`, `V` (press at the same time) - hide/show UI
+#The whole game is handled by the ‘Game’ class. The function member ‘Play’ calls ‘NineDartFinish’ function which receives vector of pointers to ‘GenericPlayer’, that points to the ‘Player’ object, which are created on the heap. It is possible because ‘Player’ class inherits from ‘GenericPlayer’ class so ‘Player’ object is also a member of ‘GenericPlayer’ class. It allows me to have functions that accept a pointer to ‘GenericPlayer’ and can work with either ‘Player’ or ‘GenericPlayer’ object. This approach allows me to easily add different types of players and also having the user to play with the computer would take a lot of less changes in the program.
