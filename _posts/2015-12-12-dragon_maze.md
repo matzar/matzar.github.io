@@ -60,4 +60,4 @@ It is an action/puzzle game where you need to quickly find a safe passage throug
 
 ## Visual and Audio Style
 
-It is a pixel style game with pixel sound and graphic. I used <a target="_blank" href="https://www.bfxr.net">http://www.bfxr.net/</a> website to create pixel styled sound assets for free. The soundtrack is a royalty free pixel music from the <a target="_blank" href="https://www.youtube.com/channel/UCvYV-T-iMTuaLOPMyOQGFzw">‘PixelMusic’ YouTube channel</a>.
+It is a pixel style game with pixel sound and graphic. I used <a target="_blank" href="https://www.bfxr.net">http://www.bfxr.net/</a> website to create pixel styled sound assets for free. The soundtrack is a royalty free pixel music from the <a target="_blank" href="https://www.youtube.com/channel/UCvYV-T-iMTuaLOPMyOQGFzw">PixelMusic</a> YouTube channel.
