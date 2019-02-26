@@ -48,7 +48,7 @@ links:
       key_trigger: 5
   section_2:
     - title: mail
-      url: email: matzaremba@icloud.com
+      url: matzaremba@icloud.com
       key_trigger: m
     - title: github
       url: http://www.github.com/matzar
