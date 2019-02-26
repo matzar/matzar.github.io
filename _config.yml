@@ -91,6 +91,8 @@ team:
     url: /visual_novel
   - name: Space Whales
     url: /space_whales
+  - name: Rainbow Dash infinite runner
+    url: /rainbow_dash
 
 #projects:
 #  - name: Timex (Windows | Unity)
