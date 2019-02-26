@@ -83,6 +83,8 @@ projects:
 team:
   - name: Global Game Jam 2016
     url: /ggj2016
+  - name: Serious Game Jam 2018
+    url: /chemistry_game_jam
 
 #projects:
 #  - name: Timex (Windows | Unity)
