@@ -34,24 +34,6 @@ I have used OOD, inheritance and polymorphism. The program starts asking you how
 
 {% highlight javascript %}
 
-// scene header file
-Camera *camera;
-FreeCamera freeCamera;
-SecurityCamera securityCamera;
-TopDownCamera topDownCamera;
-
-// user input
-// if 1 pressed
-camera = &freeCamera;
-// if 2 pressed
-camera = &securityCamera;
-// if 3 pressed
-camera = &topDownCamera;
-
-// set the camera
-gluLookAt(camera->getPositionX(), camera->getPositionY(), camera->getPositionZ(),
-		camera->getLookAtX(), camera->getLookAtY(), camera->getLookAtZ(),
-		camera->getUpX(), camera->getUpY(), camera->getUpZ());
 
 {% endhighlight %}
 
@@ -59,25 +41,7 @@ gluLookAt(camera->getPositionX(), camera->getPositionY(), camera->getPositionZ()
 
 {% highlight javascript %}
 
-// scene header file
-Camera *camera;
-FreeCamera freeCamera;
-SecurityCamera securityCamera;
-TopDownCamera topDownCamera;
-
-// user input
-// if 1 pressed
-camera = &freeCamera;
-// if 2 pressed
-camera = &securityCamera;
-// if 3 pressed
-camera = &topDownCamera;
-
-// set the camera
-gluLookAt(camera->getPositionX(), camera->getPositionY(), camera->getPositionZ(),
-		camera->getLookAtX(), camera->getLookAtY(), camera->getLookAtZ(),
-		camera->getUpX(), camera->getUpY(), camera->getUpZ());
 
 {% endhighlight %}
 
-#The whole game is handled by the ‘Game’ class. The function member ‘Play’ calls ‘NineDartFinish’ function which receives vector of pointers to ‘GenericPlayer’, that points to the ‘Player’ object, which are created on the heap. It is possible because ‘Player’ class inherits from ‘GenericPlayer’ class so ‘Player’ object is also a member of ‘GenericPlayer’ class. It allows me to have functions that accept a pointer to ‘GenericPlayer’ and can work with either ‘Player’ or ‘GenericPlayer’ object. This approach allows me to easily add different types of players and also having the user to play with the computer would take a lot of less changes in the program.
+The whole game is handled by the ‘Game’ class. The function member ‘Play’ calls ‘NineDartFinish’ function which receives vector of pointers to ‘GenericPlayer’, that points to the ‘Player’ object, which are created on the heap. It is possible because ‘Player’ class inherits from ‘GenericPlayer’ class so ‘Player’ object is also a member of ‘GenericPlayer’ class. It allows me to have functions that accept a pointer to ‘GenericPlayer’ and can work with either ‘Player’ or ‘GenericPlayer’ object. This approach allows me to easily add different types of players and also having the user to play with the computer would take a lot of less changes in the program.
