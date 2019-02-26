@@ -85,6 +85,8 @@ team:
     url: /ggj2016
   - name: Serious Game Jam 2018
     url: /chemistry_game_jam
+  - name: 4-hour game jam
+    url: /visual_novel
 
 #projects:
 #  - name: Timex (Windows | Unity)
