@@ -65,9 +65,9 @@ links:
 # projects in header index
 projects:
   - name: PSVita Game
-    url: /psvita
+  url: /psvita
   - name: SFML Networking
-    url: /sfml_networking
+  url: /sfml_networking
   - name: C++ AMP Mandelbrot set
   url: /amp_mandelbrot
   - name: OpenGL 1.1
