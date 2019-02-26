@@ -32,21 +32,6 @@ After piecing together the musical snippets of their language, players reach an 
 
 ## Credits
 
-Producer & Designer - Cameron R. Home <a target="_blank" href="https://twitter.com/cameron_r_home">@cameron_r_home​</a>
-
-Lead Designer - Callum J. Allison <a target="_blank" href="https://twitter.com/AllisonTowers">@AllisonTowers​</a>
-
-Character Art - Rob Small <a target="_blank" href="https://twitter.com/TheWorstMuppet">@TheWorstMuppet</a>
-
-Environment Art - Kemal Thomson <a target="_blank" href="https://twitter.com/Alaister_Grier">@Alaister_Grier​</a>
-
-Code - Mateusz Zaremba
-
-Code Consultant - Jamie Wood  <a target="_blank" href="https://twitter.com/jctwood">@jctwood​</a>
-
-Audio - Chris D'Arcy <a target="_blank" href="https://twitter.com/chrisjdarcy">@chrisjdarcy​​</a>
-
-
 3D Artist/Gameplay Engineer - George Rankin  <a target="_blank" href="https://twitter.com/OP_GeorgeRankin">@OP_GeorgeRankin</a>
 
 3D Artist - Matthew Aitchison <a target="_blank" href="https://twitter.com/mrgrandgrind">@mrgrandgrind</a>

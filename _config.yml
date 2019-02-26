@@ -89,6 +89,8 @@ team:
     url: /chemistry_game_jam
   - name: 4-hour game jam
     url: /visual_novel
+  - name: Space Whales
+    url: /space_whales
 
 #projects:
 #  - name: Timex (Windows | Unity)
