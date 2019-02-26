@@ -22,8 +22,6 @@ At the time I had been learning programming for 7 months and this was my first, 
 
 {% endhighlight %}
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/vW_VibvvQdw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8uQ6leX4g8c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
