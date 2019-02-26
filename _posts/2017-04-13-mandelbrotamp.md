@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "opengl"
+title:  "mandelbrot-amp"
 image: ''
-date:   2016-03-11 00:06:31
+date:   2017-04-13 00:00:00
 tags:
-- opengl
+- C++
+- AMP
 description: ''
 categories:
 - individual projects
 ---
+
