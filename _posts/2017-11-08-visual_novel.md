@@ -24,6 +24,12 @@ Game made during AGDS MicroJam on November 8,  2017 with Visual Novel engine Ren
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Vm5y8DxGTPA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
+## Play online
+
+<center>
+<iframe frameborder="0" src="https://itch.io/embed/192517" width="552" height="167"></iframe>
+</center>
+
 ## Credits
 
 Characters - Amila Nuhodzic
