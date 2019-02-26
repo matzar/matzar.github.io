@@ -17,7 +17,8 @@ Platform: Windows
 Workload: 150 hours
 Module: Programming in C++
 Year/Semester: 1st/1st
-​​This was my submission project for C++ module. At the time I had been learning programming for 7 months and this was my first, big project.
+​​This was my submission project for C++ module. 
+At the time I had been learning programming for 7 months and this was my first, big project.
 
 {% endhighlight %}
 
