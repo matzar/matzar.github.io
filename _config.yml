@@ -93,32 +93,32 @@ team:
     url: /rainbow_dash
 
 git:
+  - name: Face emotion recogntion
+    url: https://github.com/matzar/face_emotion_recognition
   - name: PSVita Game
-    url: /psvita
+    url: https://github.com/matzar/PSVita-Game
   - name: SFML Networking
-    url: /sfml_networking
+    url: https://github.com/matzar/SFML-Networking
   - name: C++ AMP Mandelbrot set
-    url: /amp_mandelbrot
+    url: https://github.com/matzar/Mandelbrot-AMP
   - name: OpenGL 1.1
-    url: /opengl
+    url: https://github.com/matzar/OpenGL
   - name: DirectX 11 HLSL
-    url: /directx
+    url: https://github.com/matzar/DirectX-Shaders
   - name: Game Boy Advance BATTLE CITY remake
-    url: /battle_city
+    url: https://github.com/matzar/BattleCity-GBA
   - name: simple darts simulator
-    url: /darts_simulator
+    url: https://github.com/matzar/darts-game
   - name: My first Unity game
-    url: /dragon_maze
-  - name: Global Game Jam 2016
-    url: /ggj2016
+    url: https://github.com/matzar/DragonMazeTheGame
   - name: Serious Game Jam 2018
-    url: /chemistry_game_jam
+    url: https://github.com/matzar/SeriousGameJam
   - name: 4-hour game jam
-    url: /visual_novel
+    url: https://github.com/matzar/ren-py
   - name: Space Whales
     url: https://github.com/GeorgeRankin/space-whales
   - name: Rainbow Dash infinite runner
-    url: /rainbow_dash
+    url: https://github.com/matzar/infinite-runner
   - name: Timex
     url: https://github.com/RetrospectAbertay/Lit
   - name: Rhythm Game
