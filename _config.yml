@@ -51,7 +51,7 @@ links:
       url: /cv
       key_trigger: c
     - title: hear
-      url: / hear
+      url: /hear
       key_trigger: h
     - title: github
       url: www.github.com/matzar
