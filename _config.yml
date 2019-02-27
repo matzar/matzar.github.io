@@ -93,11 +93,35 @@ team:
     url: /rainbow_dash
 
 git:
-  - name: Timex (Windows | Unity)
-    url: https://github.com/RetrospectAbertay/Lit
-  - name: Space Whales (Windows | UE4)
+  - name: PSVita Game
+    url: /psvita
+  - name: SFML Networking
+    url: /sfml_networking
+  - name: C++ AMP Mandelbrot set
+    url: /amp_mandelbrot
+  - name: OpenGL 1.1
+    url: /opengl
+  - name: DirectX 11 HLSL
+    url: /directx
+  - name: Game Boy Advance BATTLE CITY remake
+    url: /battle_city
+  - name: simple darts simulator
+    url: /darts_simulator
+  - name: My first Unity game
+    url: /dragon_maze
+  - name: Global Game Jam 2016
+    url: /ggj2016
+  - name: Serious Game Jam 2018
+    url: /chemistry_game_jam
+  - name: 4-hour game jam
+    url: /visual_novel
+  - name: Space Whales
     url: https://github.com/GeorgeRankin/space-whales
-  - name: Rhythm Game (Windows | Unity)
+  - name: Rainbow Dash infinite runner
+    url: /rainbow_dash
+  - name: Timex
+    url: https://github.com/RetrospectAbertay/Lit
+  - name: Rhythm Game
     url: https://github.com/jctwood/EGD-RhythmGame
 
 
