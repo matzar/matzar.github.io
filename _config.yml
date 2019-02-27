@@ -2,7 +2,7 @@
 title: Mateusz Zaremba - Portfolio
 description: "Mateusz Zaremba"
 baseurl: "" # for test: remove string '/space-jekyll-template' to ''
-url: "http://matzar.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
+url: "" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
 
 # User settings
 username: Mateusz Zaremba
@@ -32,13 +32,13 @@ compress_html:
 links:
   section_1:
     - title: home
-      url: /
+      url: http://matzar.github.io
       key_trigger: 1
     - title: posts
-      url: /posts
+      url: http://matzar.github.io/posts
       key_trigger: 2
     - title: projects
-      url: /series
+      url: http://matzar.github.io/series
       key_trigger: 3
     - title: tags
       url: /tags
