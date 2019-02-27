@@ -74,7 +74,7 @@ projects:
     url: /directx
   - name: Game Boy Advance BATTLE CITY remake
     url: /battle_city
-  - name: simple darts simulator
+  - name: Simple darts simulator
     url: /darts_simulator
   - name: My first Unity game
     url: /dragon_maze
