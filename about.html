@@ -11,7 +11,7 @@ description: "Mateusz Zaremba's projects"
 
 <div class="aboutme">
 	<ul class="recent">
-		{% for project in site.projects %}
+		{% for project in site.git %}
 	    	<li><a href="{{ project.url}}"><h3 class="project-name" itemprop="name">{{ project.name }}</h3></a></li>
 	    {% endfor %}
 	</ul>
