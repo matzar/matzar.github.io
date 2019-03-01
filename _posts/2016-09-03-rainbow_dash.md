@@ -15,7 +15,7 @@ categories:
 
 Language: C#
 API: Unity3D
-Workload: 48 hours
+Workload: 32 hours
 Game developed for the Rainbow Jam 2016 with a team of Abertay students.
 
 {% endhighlight %}

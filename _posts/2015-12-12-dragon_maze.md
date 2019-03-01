@@ -16,7 +16,7 @@ categories:
 Language: C#
 API: Unity3D
 Platform: Windows, MAC, Linux
-Workload: 150 hours
+Workload: 120 hours
 Year/Semester: ​1st/1st
 Module: Asset Production for Games (1st year)
 ​This was my first Unity project I made on my own, including all the assets.

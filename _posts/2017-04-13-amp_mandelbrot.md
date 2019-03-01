@@ -17,7 +17,7 @@ categories:
 Language: Visual C++, C++ AMP
 API: GLUT, SOIL
 Platform: Windows
-Workload: 170 hours
+Workload: 120 hours
 Year/Semester: ​2nd/2nd
 Module: Data Structures and Algorithms 2 (2nd year/2nd term)
 ​​Project made in Visual Studio 2015 and based on the framework made by Dr Paul Robertson.

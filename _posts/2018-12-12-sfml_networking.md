@@ -17,7 +17,7 @@ categories:
 Language: C++
 API: SFML 2.4.2
 Platform: ​Windows
-Workload: 170 hours
+Workload: 120 hours
 Module: Network Systems for Game Development
 Year/Semester: 3rd/1st
 Controllers: Keyboard

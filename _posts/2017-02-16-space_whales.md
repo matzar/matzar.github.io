@@ -15,7 +15,7 @@ categories:
 
 Language: C++
 API: Unreal Engine 4
-Workload: 50 hours
+Workload: 30 hours
 ​​Project developed during the academic year 2016/2017 as part of Abertay's Game Development Society.
 
 {% endhighlight %}
