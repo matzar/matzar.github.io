@@ -24,7 +24,14 @@ Workload: 50 hours
 <center>
 <body>
 
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/GeorgeRankin/space-whales" data-icon="octicon-star" aria-label="Star GeorgeRankin/space-whales on GitHub">Star</a>
 
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/GeorgeRankin/space-whales/fork" data-icon="octicon-repo-forked" aria-label="Fork GeorgeRankin/space-whales on GitHub">Fork</a>
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/GeorgeRankin/space-whales/archive/master.zip" data-icon="octicon-cloud-download" aria-label="Download GeorgeRankin/space-whales on GitHub">Download</a>
 
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
