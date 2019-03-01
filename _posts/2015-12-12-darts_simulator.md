@@ -14,7 +14,7 @@ categories:
 
 Language: C++
 Platform: Windows
-Workload: 150 hours
+Workload: 120 hours
 Module: Programming in C++
 Year/Semester: 1st/1st
 ​​This was my submission project for C++ module. 

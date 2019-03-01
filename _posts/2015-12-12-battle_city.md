@@ -14,7 +14,7 @@ categories:
 {% highlight javascript %}
 
 Language: C++
-Workload: 150 hours
+Workload: 120 hours
 Platform: Game Boy Advance
 Module: Computer and Graphics Architecture
 Year/Semester: ​1st/1st
