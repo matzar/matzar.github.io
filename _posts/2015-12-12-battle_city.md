@@ -26,7 +26,17 @@ Year/Semester: ​1st/1st
 <center>
 <body>
 
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar" aria-label="Follow @matzar on GitHub">Follow @matzar</a>
 
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar/BattleCity-GBA" data-icon="octicon-star" aria-label="Star matzar/battle-city-gba on GitHub">Star</a>
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar/BattleCity-GBA/fork" data-icon="octicon-repo-forked" aria-label="Fork matzar/battle-city-gba on GitHub">Fork</a>
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar/BattleCity-GBA/archive/master.zip" data-icon="octicon-cloud-download" aria-label="Download matzar/battle-city-gba on GitHub">Download</a>
 
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
