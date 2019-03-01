@@ -7,7 +7,7 @@ tags:
 - C++
 - SFML
 - networking
-description: ''
+description: 'SFML Networking'
 categories:
 - individual projects
 ---
