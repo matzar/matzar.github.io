@@ -28,7 +28,17 @@ Module: Data Structures and Algorithms 2 (2nd year/2nd term)
 <center>
 <body>
 
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar" aria-label="Follow @matzar on GitHub">Follow @matzar</a>
 
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar/mandelbrot-amp" data-icon="octicon-star" aria-label="Star matzar/mandelbrot-amp on GitHub">Star</a>
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar/mandelbrot-amp/fork" data-icon="octicon-repo-forked" aria-label="Fork matzar/mandelbrot-amp on GitHub">Fork</a>
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar/mandelbrot-amp/archive/master.zip" data-icon="octicon-cloud-download" aria-label="Download matzar/mandelbrot-amp on GitHub">Download</a>
 
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
