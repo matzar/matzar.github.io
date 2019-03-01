@@ -22,6 +22,19 @@ Year/Semester: ​1st/1st
 
 {% endhighlight %}
 
+<!-- BUTTONS -->
+<center>
+<body>
+
+
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+</body>
+</center>
+
+
 <!-- PIC 1 -->
 <figure class="foto-legenda">
 	<img src="{{ "/assets/img/battle-city/1.jpeg"}}" alt="">

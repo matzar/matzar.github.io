@@ -24,6 +24,18 @@ Module: Data Structures and Algorithms 2 (2nd year/2nd term)
 
 {% endhighlight %}
 
+<!-- BUTTONS -->
+<center>
+<body>
+
+
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+</body>
+</center>
+
 <!-- YOTUUBE VIDEO 1 -->
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/xexwDTq1ajU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 

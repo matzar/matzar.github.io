@@ -23,6 +23,18 @@ Module: Asset Production for Games (1st year)
 
 {% endhighlight %}
 
+<!-- BUTTONS -->
+<center>
+<body>
+
+
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+</body>
+</center>
+
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NuWh7axYdqQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>

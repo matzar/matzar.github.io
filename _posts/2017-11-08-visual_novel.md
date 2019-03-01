@@ -20,6 +20,18 @@ Game made during AGDS MicroJam on November 8,  2017 with Visual Novel engine Ren
 
 {% endhighlight %}
 
+<!-- BUTTONS -->
+<center>
+<body>
+
+
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+</body>
+</center>
+
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Vm5y8DxGTPA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>

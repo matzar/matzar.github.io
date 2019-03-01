@@ -20,6 +20,18 @@ Game made during Abertay's Serious Game Jam on January 10-12, 2018.
 
 {% endhighlight %}
 
+<!-- BUTTONS -->
+<center>
+<body>
+
+
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+</body>
+</center>
+
 <center>
 <iframe 
 width="560" height="315" 
