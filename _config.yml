@@ -103,7 +103,7 @@ git:
     url: https://github.com/matzar/DirectX-Shaders
   - name: Game Boy Advance BATTLE CITY remake
     url: https://github.com/matzar/BattleCity-GBA
-  - name: simple darts simulator
+  - name: Simple darts simulator
     url: https://github.com/matzar/darts-game
   - name: My first Unity game
     url: https://github.com/matzar/DragonMazeTheGame
