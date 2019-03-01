@@ -24,7 +24,13 @@ Game made during Abertay's Serious Game Jam on January 10-12, 2018.
 <center>
 <body>
 
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/xyskin/Chemistry-Game-Jam" data-icon="octicon-star" aria-label="Star xyskin/Chemistry-Game-Jam on GitHub">Star</a>
 
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/xyskin/Chemistry-Game-Jam/fork" data-icon="octicon-repo-forked" aria-label="Fork xyskin/Chemistry-Game-Jam on GitHub">Fork</a>
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/xyskin/Chemistry-Game-Jam/archive/master.zip" data-icon="octicon-cloud-download" aria-label="Download xyskin/Chemistry-Game-Jam on GitHub">Download</a>
 
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
