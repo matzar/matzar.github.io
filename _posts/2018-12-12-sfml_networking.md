@@ -25,6 +25,29 @@ Controllers: Keyboard
 
 {% endhighlight %}
 
+
+<!-- BUTTONS -->
+<center>
+<body>
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar" aria-label="Follow @matzar on GitHub">Follow @matzar</a>
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar/SFML-Networking" data-icon="octicon-star" aria-label="Star matzar/SFML-Networking on GitHub">Star</a>
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar/SFML-Networking/fork" data-icon="octicon-repo-forked" aria-label="Fork matzar/SFML-Networking on GitHub">Fork</a>
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar/SFML-Networking/archive/master.zip" data-icon="octicon-cloud-download" aria-label="Download matzar/SFML-Networking on GitHub">Download</a>
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+</body>
+</center>
+
 <!-- YOTUUBE VIDEO 1 -->
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/B-qvW1c78eA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
