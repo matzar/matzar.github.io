@@ -91,6 +91,8 @@ team:
     url: /rainbow_dash
 
 git:
+  - name: ModernCpp
+    url: https://github.com/matzar/ModernCpp
   - name: Face emotion recogntion
     url: https://github.com/matzar/face_emotion_recognition
   - name: PSVita Game
