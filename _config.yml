@@ -49,7 +49,7 @@ links:
       key_trigger: 5
   section_2:
     - title: cv
-      url: /cv
+      url: https://matzar.github.io/markdown-cv/
       key_trigger: c
     - title: hear
       url: /hear

@@ -1,0 +1,68 @@
+I"~!
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">Language</span><span class="p">:</span> <span class="nx">C</span><span class="o">++</span>
+<span class="nx">Platform</span><span class="p">:</span> <span class="nx">Windows</span>
+<span class="nx">Workload</span><span class="p">:</span> <span class="mi">120</span> <span class="nx">hours</span>
+<span class="nx">Module</span><span class="p">:</span> <span class="nx">Programming</span> <span class="k">in</span> <span class="nx">C</span><span class="o">++</span>
+<span class="nx">Year</span><span class="o">/</span><span class="nx">Semester</span><span class="p">:</span> <span class="mi">1</span><span class="nx">st</span><span class="o">/</span><span class="mi">1</span><span class="nx">st</span>
+<span class="err">​​</span><span class="nx">This</span> <span class="nx">was</span> <span class="nx">my</span> <span class="nx">submission</span> <span class="nx">project</span> <span class="k">for</span> <span class="nx">C</span><span class="o">++</span> <span class="nx">module</span><span class="p">.</span> 
+<span class="nx">At</span> <span class="nx">the</span> <span class="nx">time</span> <span class="nx">I</span> <span class="nx">had</span> <span class="nx">been</span> <span class="nx">learning</span> <span class="nx">programming</span> <span class="k">for</span> <span class="mi">7</span> <span class="nx">months</span> <span class="nx">and</span> <span class="k">this</span> <span class="nx">was</span> <span class="nx">my</span> <span class="nx">first</span><span class="p">,</span> <span class="nx">big</span> <span class="nx">project</span><span class="p">.</span></code></pre></figure>
+
+<!-- BUTTONS -->
+<center>
+<body>
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar" aria-label="Follow @matzar on GitHub">Follow @matzar</a>
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar/darts-game" data-icon="octicon-star" aria-label="Star matzar/darts-game on GitHub">Star</a>
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar/darts-game/fork" data-icon="octicon-repo-forked" aria-label="Fork matzar/darts-game on GitHub">Fork</a>
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar/darts-game/archive/master.zip" data-icon="octicon-cloud-download" aria-label="Download matzar/darts-game on GitHub">Download</a>
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
+
+</body>
+</center>
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8uQ6leX4g8c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</center>
+
+<h2 id="description">Description</h2>
+
+<p>I have used OOD, inheritance and polymorphism. The program starts asking you how many players you want to have, how to name them and have many games you want to simulate. Every simulation starts with “nearest the bull” game, to see who throws first. The winner is picked and the simulation continues in the established order, e.g.: if you have four players and ‘Player3’ won “nearest the bull” game he will start first and then accordingly ‘Player4’ (the program will loop the player’s vector to the beginning), ‘Player1’ and ‘Player2’. The simulation is based on the ‘Nine Darts Finish’ strategy. The players aim for the T20 to score the highest possible score which is 180. They keep aiming triple as long as it will leave them with the lowest and still possible to win score.  If it’s possible to win by aiming for the bull or the double (in this order) they will do it. Otherwise, they will keep aiming for the highest possible score. If the score is odd and it’s impossible to win by aiming for the double or the bull they will aim for the single to make it even but it will never be smaller than 2. In other words, if they keep missing, they will be left with the lowest winning score which is 2.  And if they bust the score will go back to the one they had before the turn started. The idea for the checkout was to that recreate a three 167s (T20-T19-Bull) which is considered a pure or perfect nine dart finish by some players and a 141 checkout (T20-T19-D12). It is possible to get a very similar effect in my program.</p>
+
+<h3 id="heres-sample-output-of-a-checkout-on-the-bull">Here’s sample output of a checkout on the bull:</h3>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// Player's name and score</span>
+<span class="nx">Player2</span> <span class="nx">Turn</span><span class="p">.</span> <span class="nx">Score</span><span class="p">:</span> <span class="mi">120</span>
+
+<span class="c1">// Player's aim</span>
+<span class="nx">Aim</span> <span class="nx">Triple</span> <span class="mi">20</span>
+
+<span class="c1">// What player hit(how many points) Score: current score = previous score - hit score</span>
+<span class="nx">Scored</span> <span class="nx">Triple</span> <span class="mi">20</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span> <span class="nx">Score</span><span class="p">:</span> <span class="mi">60</span> <span class="o">=</span> <span class="mi">120</span> <span class="o">-</span> <span class="mi">60</span>
+
+<span class="c1">// Player's aim</span>
+<span class="nx">Aim</span> <span class="nx">Bull</span>
+
+<span class="c1">// What player hit(how many points) Score: current score = previous score - hit score</span>
+<span class="nx">Scored</span> <span class="nx">Bull</span> <span class="mi">50</span> <span class="nx">Score</span><span class="p">:</span> <span class="mi">0</span> <span class="o">=</span> <span class="mi">50</span> <span class="o">-</span> <span class="mi">50</span>           </code></pre></figure>
+
+<h3 id="sample-output-of-a-checkout-on-the-double-close-to-141-checkout">Sample output of a checkout on the double (close to 141 checkout):</h3>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">Player1</span> <span class="nx">Turn</span><span class="p">.</span> <span class="nx">Score</span><span class="p">:</span> <span class="mi">132</span>
+<span class="nx">Aim</span> <span class="nx">Triple</span> <span class="mi">20</span>
+<span class="nx">Scored</span> <span class="nx">Triple</span> <span class="mi">20</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span> <span class="nx">Score</span><span class="p">:</span> <span class="mi">72</span> <span class="o">=</span> <span class="mi">132</span> <span class="o">-</span> <span class="mi">60</span>
+<span class="nx">Aim</span> <span class="nx">Triple</span> <span class="mi">20</span>
+<span class="nx">Scored</span> <span class="nx">Triple</span> <span class="mi">20</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span> <span class="nx">Score</span><span class="p">:</span> <span class="mi">12</span> <span class="o">=</span> <span class="mi">72</span> <span class="o">-</span> <span class="mi">60</span>
+<span class="nx">Aim</span> <span class="nx">Double</span> <span class="mi">6</span>
+<span class="nx">Scored</span> <span class="nx">Double</span> <span class="mi">6</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span> <span class="nx">Score</span><span class="p">:</span> <span class="mi">0</span> <span class="o">=</span> <span class="mi">12</span> <span class="o">-</span> <span class="mi">12</span></code></pre></figure>
+
+<p>​The whole game is handled by the ‘Game’ class. The function member ‘Play’ calls ‘NineDartFinish’ function which receives vector of pointers to ‘GenericPlayer’, that points to the ‘Player’ object, which are created on the heap. It is possible because ‘Player’ class inherits from ‘GenericPlayer’ class so ‘Player’ object is also a member of ‘GenericPlayer’ class. It allows me to have functions that accept a pointer to ‘GenericPlayer’ and can work with either ‘Player’ or ‘GenericPlayer’ object. This approach allows me to easily add different types of players and also having the user to play with the computer would take a lot of less changes in the program.</p>
+:ET

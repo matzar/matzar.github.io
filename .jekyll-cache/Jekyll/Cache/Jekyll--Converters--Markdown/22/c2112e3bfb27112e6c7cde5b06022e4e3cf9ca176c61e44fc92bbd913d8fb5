@@ -1,0 +1,115 @@
+I"`
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">Language</span><span class="p">:</span> <span class="nx">C</span><span class="o">++</span>
+<span class="nx">API</span><span class="p">:</span> <span class="nx">DirectX</span> <span class="mi">11</span> <span class="nx">HLSL</span>
+<span class="nx">Platform</span><span class="p">:</span> <span class="err">​</span><span class="nx">Windows</span>
+<span class="nx">Workload</span><span class="p">:</span> <span class="mi">120</span> <span class="nx">hours</span>
+<span class="nx">Module</span><span class="p">:</span> <span class="nx">Graphics</span> <span class="nx">Programming</span> <span class="kd">with</span> <span class="nx">Shaders</span>
+<span class="nx">Year</span><span class="o">/</span><span class="nx">Semester</span><span class="p">:</span> <span class="mi">3</span><span class="nx">rd</span><span class="o">/</span><span class="mi">1</span><span class="nx">st</span>
+<span class="nx">Controllers</span><span class="p">:</span> <span class="nx">Keyboard</span> <span class="nx">and</span> <span class="nx">mouse</span>
+<span class="err">​​</span><span class="nx">Project</span> <span class="nx">made</span> <span class="k">in</span> <span class="nx">Visual</span> <span class="nx">Studio</span> <span class="mi">2015</span> <span class="nx">using</span> <span class="nx">DirectX</span> <span class="mi">11</span> <span class="nx">HLSL</span></code></pre></figure>
+
+<!-- BUTTONS -->
+<center>
+<body>
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar" aria-label="Follow @matzar on GitHub">Follow @matzar</a>
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar/DirectX-Shaders" data-icon="octicon-star" aria-label="Star matzar/DirectX-Shaders on GitHub">Star</a>
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar/DirectX-Shaders/fork" data-icon="octicon-repo-forked" aria-label="Fork matzar/DirectX-Shaders on GitHub">Fork</a>
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar/DirectX-Shaders/archive/master.zip" data-icon="octicon-cloud-download" aria-label="Download matzar/DirectX-Shaders on GitHub">Download</a>
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
+
+</body>
+</center>
+
+<!-- YOUTUBE GAMEPLAY VIDEO -->
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/Z2942T6JDdw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></center>
+
+<!-- PRESENTATION -->
+<center><p>PRESENTATION</p></center>
+
+<!-- PDF -->
+<center>
+<object data="/assets/pdf/DirectX-shaders.pdf" alt="" width="600" height="500">
+  <a href="/assets/pdf/DirectX-shaders.pdf" alt="">DirectX shaders postmortem</a>
+</object>
+</center>
+
+<!-- PIC 1 -->
+<figure class="foto-legenda">
+	<img src="/assets/img/directx/1.png" alt="" />
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 2 -->
+<figure class="foto-legenda">
+	<img src="/assets/img/directx/2.png" alt="" />
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 3 -->
+<figure class="foto-legenda">
+	<img src="/assets/img/directx/3.png" alt="" />
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 4 -->
+<figure class="foto-legenda">
+	<img src="/assets/img/directx/4.png" alt="" />
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 5 -->
+<figure class="foto-legenda">
+	<img src="/assets/img/directx/5.png" alt="" />
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 6 -->
+<figure class="foto-legenda">
+	<img src="/assets/img/directx/6.png" alt="" />
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 7 -->
+<figure class="foto-legenda">
+	<img src="/assets/img/directx/7.png" alt="" />
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 8 -->
+<figure class="foto-legenda">
+	<img src="/assets/img/directx/8.png" alt="" />
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 9 -->
+<figure class="foto-legenda">
+	<img src="/assets/img/directx/9.png" alt="" />
+	<figcaption> 
+	</figcaption>
+</figure>
+
+<!-- PIC 10 -->
+<figure class="foto-legenda">
+	<img src="/assets/img/directx/10.png" alt="" />
+	<figcaption> 
+	</figcaption>
+</figure>
+:ET

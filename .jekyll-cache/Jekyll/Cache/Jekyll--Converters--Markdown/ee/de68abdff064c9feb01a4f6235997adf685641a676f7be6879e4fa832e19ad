@@ -1,0 +1,180 @@
+I"9
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">Language</span><span class="p">:</span> <span class="nx">Visual</span> <span class="nx">C</span><span class="o">++</span>
+<span class="nx">API</span><span class="p">:</span> <span class="nx">GLUT</span><span class="p">,</span> <span class="nx">SOIL</span>
+<span class="nx">Platform</span><span class="p">:</span> <span class="nx">Windows</span>
+<span class="nx">Workload</span><span class="p">:</span> <span class="mi">150</span> <span class="nx">hours</span>
+<span class="nx">Year</span><span class="o">/</span><span class="nx">Semester</span><span class="p">:</span> <span class="mi">2</span><span class="nx">nd</span><span class="o">/</span><span class="mi">1</span><span class="nx">st</span>
+<span class="nx">Module</span><span class="p">:</span> <span class="nx">Graphics</span> <span class="nx">Programming</span> <span class="p">(</span><span class="mi">2</span><span class="nx">nd</span> <span class="nx">year</span><span class="p">)</span>
+<span class="err">​​</span><span class="nx">Project</span> <span class="nx">made</span> <span class="k">in</span> <span class="nx">Visual</span> <span class="nx">Studio</span> <span class="mi">2015</span> <span class="nx">and</span> <span class="nx">based</span> <span class="nx">on</span> <span class="nx">the</span> <span class="nx">framework</span> <span class="nx">provided</span> <span class="nx">by</span>
+<span class="nx">the</span> <span class="nx">module</span> <span class="nx">tutor</span> <span class="nx">Dr</span> <span class="nx">Paul</span> <span class="nx">Robertson</span><span class="p">.</span></code></pre></figure>
+
+<!-- BUTTONS -->
+<center>
+<body>
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar" aria-label="Follow @matzar on GitHub">Follow @matzar</a>
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar/OpenGL" data-icon="octicon-star" aria-label="Star matzar/OpenGL on GitHub">Star</a>
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar/OpenGL/fork" data-icon="octicon-repo-forked" aria-label="Fork matzar/OpenGL on GitHub">Fork</a>
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/matzar/OpenGL/archive/master.zip" data-icon="octicon-cloud-download" aria-label="Download matzar/OpenGL on GitHub">Download</a>
+
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
+
+</body>
+</center>
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/vW_VibvvQdw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></center>
+
+<h2 id="overview">Overview</h2>
+
+<p>In this project I have focused on procedurally generated shapes while utilising various OpenGL techniques like: lighting, transparency, planar shadows, stencil buffer, texturing and texture filtering. As well as 3 different cameras; FPP camera, which allows unrestricted movement, in any direction, around the scene with mouse and keyboard control, top down camera (GTA like) and fixed-security camera. All three cameras inherit from a virtual ‘Camera’ class which allows for a single camera call in the ‘Scene’ class and easy switching between them. Also, makes adding different types of cameras, easier.</p>
+
+<h3 id="camera-setting">Camera setting</h3>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// scene header file</span>
+<span class="nx">Camera</span> <span class="o">*</span><span class="nx">camera</span><span class="p">;</span>
+<span class="nx">FreeCamera</span> <span class="nx">freeCamera</span><span class="p">;</span>
+<span class="nx">SecurityCamera</span> <span class="nx">securityCamera</span><span class="p">;</span>
+<span class="nx">TopDownCamera</span> <span class="nx">topDownCamera</span><span class="p">;</span>
+
+<span class="c1">// user input</span>
+<span class="c1">// if 1 pressed</span>
+<span class="nx">camera</span> <span class="o">=</span> <span class="o">&amp;</span><span class="nx">freeCamera</span><span class="p">;</span>
+<span class="c1">// if 2 pressed</span>
+<span class="nx">camera</span> <span class="o">=</span> <span class="o">&amp;</span><span class="nx">securityCamera</span><span class="p">;</span>
+<span class="c1">// if 3 pressed</span>
+<span class="nx">camera</span> <span class="o">=</span> <span class="o">&amp;</span><span class="nx">topDownCamera</span><span class="p">;</span>
+
+<span class="c1">// set the camera</span>
+<span class="nx">gluLookAt</span><span class="p">(</span><span class="nx">camera</span><span class="o">-&gt;</span><span class="nx">getPositionX</span><span class="p">(),</span> <span class="nx">camera</span><span class="o">-&gt;</span><span class="nx">getPositionY</span><span class="p">(),</span> <span class="nx">camera</span><span class="o">-&gt;</span><span class="nx">getPositionZ</span><span class="p">(),</span>
+		<span class="nx">camera</span><span class="o">-&gt;</span><span class="nx">getLookAtX</span><span class="p">(),</span> <span class="nx">camera</span><span class="o">-&gt;</span><span class="nx">getLookAtY</span><span class="p">(),</span> <span class="nx">camera</span><span class="o">-&gt;</span><span class="nx">getLookAtZ</span><span class="p">(),</span>
+		<span class="nx">camera</span><span class="o">-&gt;</span><span class="nx">getUpX</span><span class="p">(),</span> <span class="nx">camera</span><span class="o">-&gt;</span><span class="nx">getUpY</span><span class="p">(),</span> <span class="nx">camera</span><span class="o">-&gt;</span><span class="nx">getUpZ</span><span class="p">());</span></code></pre></figure>
+
+<h2 id="procedural-shape-generation">Procedural Shape Generation</h2>
+
+<p>The ‘Shape’ class handles all procedural shape generation and rendering functions. All shapes in the scene are procedurally generated and textured using UV coordinates of one texture only for each shape. This proved some challenges especially when it came to UV texturing of a cylinder but in the end I was really pleased with the result and managed to map all shapes with one texture. And all shapes are rendered with triangle primitives. The ‘Shape’ class allows for a procedural generation of the following shapes: a sphere, a cylinder, a cone, a disk, a torus and a butterfly curve.
+Here’s an example of a shape building function call and its render function call.</p>
+
+<h3 id="camera-setting-1">Camera setting</h3>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">Shape</span> <span class="nx">sphere</span><span class="p">;</span>
+
+<span class="nx">sphere</span><span class="p">.</span><span class="nx">buildSphere</span><span class="p">(</span><span class="nx">GL_TRIANGLES</span><span class="p">,</span>         <span class="c1">// primitive</span>
+    <span class="mf">0.5f</span><span class="p">,</span> <span class="mf">5.0f</span><span class="p">,</span> <span class="mf">5.0f</span><span class="p">,</span>                    <span class="c1">// radius, latitude, longitude</span>
+    <span class="nx">Vector3</span><span class="p">(</span><span class="mf">0.0f</span><span class="p">,</span> <span class="mf">2.0f</span><span class="p">,</span> <span class="mf">0.0f</span><span class="p">),</span>           <span class="c1">// translate x, translate y, translate z,</span>
+    <span class="nx">Vector3</span><span class="p">(</span><span class="mf">1.0f</span><span class="p">,</span> <span class="mf">1.0f</span><span class="p">,</span> <span class="mf">1.0f</span><span class="p">),</span>           <span class="c1">// scale x, scale y, scale z,</span>
+    <span class="nx">Vector4</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">),</span>         <span class="c1">// rotation angle, rotation x, rotation y, rotation z</span>
+    <span class="nx">Vector4</span><span class="p">(</span><span class="mf">1.0f</span><span class="p">,</span> <span class="mf">1.0f</span><span class="p">,</span> <span class="mf">1.0f</span><span class="p">,</span> <span class="mf">1.0f</span><span class="p">),</span>     <span class="c1">// red, green, blue, alpha colour</span>
+    <span class="nx">earth_tex</span><span class="p">);</span>                          <span class="c1">// texture</span>
+		
+<span class="nx">sphere</span><span class="p">.</span><span class="nx">render</span><span class="p">();</span></code></pre></figure>
+
+<p>This way of building shapes, which puts all vertices,  normals and texture coordinates into separate vectors of floats allows for a single rendering function call which uses drawing arrays.</p>
+
+<h2 id="features">Features</h2>
+
+<h3 id="6-lights---5-controllable-by-the-user-and-1-animated">6 lights - 5 controllable by the user and 1 animated</h3>
+<ul>
+  <li>point light</li>
+  <li>spot light</li>
+  <li>directional light</li>
+  <li>low attenuation light</li>
+  <li>red point light</li>
+  <li>green point light</li>
+  <li>animated blue light</li>
+</ul>
+
+<h3 id="3-cameras">3 cameras</h3>
+<ul>
+  <li>‘FPP camera’  - allows the user to control X, Y and Z axes with the keyboard and pitch and yaw with the mouse.</li>
+  <li>‘Security Camera’ - procedural camera lerping 80 units to the left and 80 units back to the right. The user can take control over the camera and move it within the clamped area. It is also possible to control the camera while in the procedural mode. When the camera is set back to the procedural mode it picks up from where the user left it.</li>
+  <li>‘Top down camera’ - fixed top down view. The user can move the camera along the X and Z axes. Y axis is fixed.</li>
+</ul>
+
+<h3 id="procedurally-generated-shapes">Procedurally generated shapes</h3>
+<ul>
+  <li>sphere</li>
+  <li>torus</li>
+  <li>cylinder</li>
+  <li>cone</li>
+  <li>disc</li>
+  <li>circle</li>
+  <li>butterfly</li>
+</ul>
+
+<h3 id="solar-system-and-use-of">Solar system and use of</h3>
+<ul>
+  <li>the matrix stack for hierarchical modelling and animation through hierarchical means.</li>
+  <li>the stencil buffer - the entire solar system is reflected in the scene’s floor.</li>
+</ul>
+
+<h3 id="more">More</h3>
+<ul>
+  <li>Procedural UV texturing and dynamic texture filtering</li>
+  <li>Transparency effects / Alpha blending</li>
+  <li>Vertex arrays</li>
+  <li>Models loaded in from an external file</li>
+  <li>Dynamic shadows</li>
+  <li>User interaction</li>
+  <li>Wireframe mode​</li>
+</ul>
+
+<h2 id="instructions">Instructions</h2>
+
+<p>You will start with a free camera which allows you to freely explore the scene. Use <code class="highlighter-rouge">WSAD</code> and <code class="highlighter-rouge">mouse</code> to control the free camera. Press <code class="highlighter-rouge">1</code> whenever you want to choose this camera.</p>
+
+<p>Press <code class="highlighter-rouge">2</code> to switch to an automatic security camera. You can control it with WSAD when it is in an automatic mode or not. Press ‘C’ to toggle between the automatic mode.</p>
+
+<p>Press <code class="highlighter-rouge">3</code> to switch to a top down camera. Use <code class="highlighter-rouge">WSAD</code> to control it.</p>
+
+<p>Press keys <code class="highlighter-rouge">F1</code>, <code class="highlighter-rouge">F2</code>, <code class="highlighter-rouge">F3</code>, <code class="highlighter-rouge">F4</code>, <code class="highlighter-rouge">F5</code>, <code class="highlighter-rouge">F6</code> to toggle lights 0 - 5 on and off. Light number 6 is an animated point light with medium attenuation and blue colour.
+Use Arrow Keys to control the lights. Press <code class="highlighter-rouge">G</code> or <code class="highlighter-rouge">Page Up</code> to move in the positive direction on the z axis. Press <code class="highlighter-rouge">T</code> or <code class="highlighter-rouge">Page Down</code> to move in the negative direction on the z axis.</p>
+
+<p>Keys <code class="highlighter-rouge">F6</code> to <code class="highlighter-rouge">F12</code> control texture filtering which is applied only to the quad above the scene with the grass texture.
+​
+<code class="highlighter-rouge">F1</code> - Light 0 - spot light in -y direction and 45.0 degree cut off</p>
+
+<p><code class="highlighter-rouge">F2</code> - Light 1 - directional light in positive x direction</p>
+
+<p><code class="highlighter-rouge">F3</code> - Light 2 - low attenuation light</p>
+
+<p><code class="highlighter-rouge">F4</code> - Light 3 - point light</p>
+
+<p><code class="highlighter-rouge">F5</code> - Light 4 - point light - medium attenuation - red colour</p>
+
+<p><code class="highlighter-rouge">F6</code> - Light 5 - point light - medium attenuation - green colour</p>
+
+<p><code class="highlighter-rouge">F7</code> - Toggle Point Sampling</p>
+
+<p><code class="highlighter-rouge">F8</code> - Toggle Bilinear Filtering</p>
+
+<p><code class="highlighter-rouge">F9</code> - Toggle Mipmapping Filtering</p>
+
+<p><code class="highlighter-rouge">F10</code> - Toggle Half Mipmapping Filtering</p>
+
+<p><code class="highlighter-rouge">F11</code> - Toggle Half Trilinear Filtering</p>
+
+<p><code class="highlighter-rouge">F12</code> - Toggle Trilinear Filtering</p>
+
+<p><code class="highlighter-rouge">B</code> - toggle blend mode
+​
+<code class="highlighter-rouge">M</code> - toggle wireframe mode​</p>
+
+<p><code class="highlighter-rouge">D</code>, <code class="highlighter-rouge">E</code>, <code class="highlighter-rouge">V</code> (press at the same time) - hide/show UI</p>
+
+<!-- 
+
+1. <a href="http://dba.stackexchange.com/questions/4508/what-does-horizontal-scaling-mean" target="_blank">What does horizontal scaling mean?</a>
+2. <a href="https://blog.openshift.com/best-practices-for-horizontal-application-scaling/" target="_blank">Best Practices For Horizontal Application Scaling</a>
+3. <a href="http://www.infoq.com/articles/ebay-scalability-best-practices" target="_blank">Scalability Best Practices: Lessons from eBay</a>
+4. <a href="http://stackoverflow.com/questions/5401992/what-does-scale-horizontally-and-scale-vertically-mean" target="_blank">What does scale horizontally and scale vertically mean?</a>
+
+-->
+:ET
