@@ -51,9 +51,6 @@ links:
     - title: cv
       url: /cv
       key_trigger: c
-    - title: hear
-      url: /hear
-      key_trigger: h
     - title: search
       url: ""
       key_trigger: s #WARNING: search only works with "s"
