@@ -55,6 +55,14 @@ links:
       url: ""
       key_trigger: s #WARNING: search only works with "s"
 
+# cv
+cv:
+  - name: cv.pdf
+    url: /cv
+  - name: markdown-cv.md
+    url: /markdown-cv
+
+
 # projects in header index
 projects:
   - name: PSVita Game
