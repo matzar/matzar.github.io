@@ -57,7 +57,7 @@ links:
 
 # menu
 menu:
-  - name: CV.pdf/CV.html
+  - name: CV.pdf / CV.html
     url: /cvs
   - name: All Projects
     url: /series

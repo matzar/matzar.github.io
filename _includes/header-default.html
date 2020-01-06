@@ -12,8 +12,8 @@
         {% include icons-home.html %}
 
         <ul class="recent">
-            <p>MENU:</p>
-             {% for project in site.cv limit:2%}
+            <p>Go to:</p>
+             {% for project in site.menu limit:2%}
                 <li>
                     <a title="Go to" href="{{ project.url}}">
                         <h2 class="post-title" itemprop="name">{{ project.name }}</h2>
