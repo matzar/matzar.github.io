@@ -48,7 +48,7 @@ links:
       url: /about
       key_trigger: 5
   section_2:
-    - title: cvs
+    - title: cv.pdf / cv.html
       url: /cvs
       key_trigger: c
     - title: search
