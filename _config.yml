@@ -55,6 +55,13 @@ links:
       url: ""
       key_trigger: s #WARNING: search only works with "s"
 
+# menu
+menu:
+  - name: Projects
+    url: /series
+  - name: Source
+    url: /about
+
 # cv
 cv:
   - name: cv.pdf
