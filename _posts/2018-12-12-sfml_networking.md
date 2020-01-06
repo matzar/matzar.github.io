@@ -4,8 +4,10 @@ title:  "sfml-networking"
 image: ''
 date:   2018-12-12 00:00:00
 tags:
+- c++
 - C++
 - SFML
+- sfml
 - networking
 description: 'SFML Networking'
 categories:
