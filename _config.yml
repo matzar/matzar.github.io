@@ -76,16 +76,16 @@ projects:
 
 # team projects
 team:
-  - name: Global Game Jam 2016
-    url: /ggj2016
-  - name: Serious Game Jam 2018
-    url: /chemistry_game_jam
   - name: 4-hour game jam
     url: /visual_novel
+  - name: Serious Game Jam 2018
+    url: /chemistry_game_jam
   - name: Space Whales
     url: /space_whales
   - name: Rainbow Dash infinite runner
     url: /rainbow_dash
+  - name: Global Game Jam 2016
+    url: /ggj2016
 
 git:
   - name: ModernCpp
