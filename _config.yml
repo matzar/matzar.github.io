@@ -76,12 +76,12 @@ projects:
 
 # team projects
 team:
-  - name: 4-hour game jam
-    url: /visual_novel
   - name: Serious Game Jam 2018
     url: /chemistry_game_jam
   - name: Space Whales
     url: /space_whales
+  - name: 4-hour game jam
+    url: /visual_novel
   - name: Rainbow Dash infinite runner
     url: /rainbow_dash
   - name: Global Game Jam 2016
