@@ -48,8 +48,8 @@ links:
       url: /about
       key_trigger: 5
   section_2:
-    - title: cv
-      url: /cv
+    - title: cvs
+      url: /cvs
       key_trigger: c
     - title: search
       url: ""
