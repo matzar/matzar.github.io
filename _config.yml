@@ -59,7 +59,7 @@ links:
 menu:
   - name: CV.pdf / CV.html
     url: /cvs
-  - name: All Projects
+  - name: Projects
     url: /series
   - name: Source
     url: /about
