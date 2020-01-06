@@ -68,7 +68,7 @@ menu:
 cv:
   - name: cv.pdf
     url: /cv
-  - name: markdown-cv.html
+  - name: cv.html
     url: /markdown-cv
 
 
