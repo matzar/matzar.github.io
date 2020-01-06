@@ -11,7 +11,7 @@ description: "Take a look at my series..."
   <span class="tag-title" id="{{ tag[0] | slugify }}">{{ tag[0] | capitalize }}</span>
   <ul class="post-list">
     {% assign pages_list = tag[1] %}
-    {% for post in pages_list reversed %}
+    {% for post in pages_list %}
       {% if post.title != null %}
       {% if group == null or group == post.group %}
       <li>
