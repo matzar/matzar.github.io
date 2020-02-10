@@ -12,9 +12,6 @@ categories:
 - individual projects
 ---
 
-<!-- TITLE -->
-<center><p>Statistical Data Analysis of Student Goals</p></center>
-
 <!-- PDF -->
 <center>
 <object data="{{ "/assets/pdf/DirectX-shaders.pdf" type="application/pdf"}}" alt="" width="600" height="500">
