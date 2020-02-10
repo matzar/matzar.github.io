@@ -74,6 +74,8 @@ cv:
 
 # projects in header index
 projects:
+  - name: Statistical Data Analysis of Student Goals
+    url: /statistics
   - name: PSVita Game
     url: /psvita
   - name: SFML Networking
