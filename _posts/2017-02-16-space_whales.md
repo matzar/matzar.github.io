@@ -57,4 +57,4 @@ After piecing together the musical snippets of their language, players reach an 
 
 Music Composition - Paul Drauz-Brown <a target="_blank" href="https://tetheredaudio.wordpress.com">TetheredAudio</a>
 
-​Gameplay Engineer - Mateusz Zaremba
+​Gameplay Engineer - Mat Zaremba
