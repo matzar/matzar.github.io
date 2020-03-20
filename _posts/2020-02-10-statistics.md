@@ -14,7 +14,7 @@ categories:
 
 <!-- PDF -->
 <center>
-<object data="{{ "/assets/pdf/Mateusz-Zaremba-Student-Goals-Report.pdf" type="application/pdf"}}" alt="" width="600" height="500">
-  <a href="{{ "/assets/pdf/Mateusz-Zaremba-Student-Goals-Report.pdf" type="application/pdf"}}" alt="">Statistical Data Analysis of Student Goals</a>
+<object data="{{ "/assets/pdf/Mat-Zaremba-Student-Goals-Report.pdf" type="application/pdf"}}" alt="" width="600" height="500">
+  <a href="{{ "/assets/pdf/Mat-Zaremba-Student-Goals-Report.pdf" type="application/pdf"}}" alt="">Statistical Data Analysis of Student Goals</a>
 </object>
 </center>
