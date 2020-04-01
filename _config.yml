@@ -1,11 +1,11 @@
 # Site settings
-title: Mat Zaremba - Portfolio
-description: "Mat Zaremba"
+title: Mateusz Zaremba - Portfolio
+description: "Mateusz Zaremba"
 baseurl: "" # for test: remove string '/space-jekyll-template' to ''
 url: "http://matzar.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
 
 # User settings
-username: Mat Zaremba
+username: Mateusz Zaremba
 user_title: matzar
 email: mat.zar@icloud.com
 skype: gb6ynq6t8EeD

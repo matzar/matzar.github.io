@@ -54,4 +54,4 @@ Environment - Luke Fornari
 
 3D Characters/Animation - Emily Peterson
 
-Code/Production/Design - Mat Zaremba
+Code/Production/Design - Mateusz Zaremba

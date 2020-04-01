@@ -55,7 +55,7 @@ Characters - Amila Nuhodzic
 
 Environment - James Robinson <a target="_blank" href="https://twitter.com/SuperJerden">@SuperJerden</a>
 
-Code - Mat Zaremba
+Code - Mateusz Zaremba
 
 <!-- PIC 1 -->
 <figure class="foto-legenda">
