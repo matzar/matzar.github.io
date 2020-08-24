@@ -6,14 +6,14 @@ url: "http://matzar.github.io" # for test: remove string 'http://victorvoid.gith
 
 # User settings
 username: Mateusz Zaremba
-user_title: matzar
+user_title:
 email:
 skype:
-discord: discord
+discord:
 github_username: matzar
 # discord_invite: cj5rgDN # Example: Discord server invite gg extension like in 'https://discord.gg/cj5rgDN'
 twitter_username:
-linkedin_public_url: mat-zar # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
+linkedin_public_url: # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
 #disqus_username: carrotcake
 profile_picture: /assets/img/me.png
 
