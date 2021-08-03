@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "amp-mandelbrot"
-image: ''
-date:   2017-04-13 00:00:00
+title: "amp-mandelbrot"
+image: ""
+date: 2017-04-13 00:00:00
 tags:
-- C++
-- AMP
-- mandelbrot
-description: ''
+  - C++
+  - AMP
+  - mandelbrot
+description: ""
 categories:
-- individual projects
+  - individual projects
 ---
 
 {% highlight javascript %}
@@ -29,15 +29,19 @@ Module: Data Structures and Algorithms 2 (2nd year/2nd term)
 <body>
 
 <!-- Place this tag where you want the button to render. -->
+
 <a class="github-button" href="https://github.com/matzar" aria-label="Follow @matzar on GitHub">Follow @matzar</a>
 
 <!-- Place this tag where you want the button to render. -->
+
 <a class="github-button" href="https://github.com/matzar/mandelbrot-amp" data-icon="octicon-star" aria-label="Star matzar/mandelbrot-amp on GitHub">Star</a>
 
 <!-- Place this tag where you want the button to render. -->
+
 <a class="github-button" href="https://github.com/matzar/mandelbrot-amp/fork" data-icon="octicon-repo-forked" aria-label="Fork matzar/mandelbrot-amp on GitHub">Fork</a>
 
 <!-- Place this tag where you want the button to render. -->
+
 <a class="github-button" href="https://github.com/matzar/mandelbrot-amp/archive/master.zip" data-icon="octicon-cloud-download" aria-label="Download matzar/mandelbrot-amp on GitHub">Download</a>
 
 <!-- Place this tag in your head or just before your close body tag. -->
@@ -47,13 +51,13 @@ Module: Data Structures and Algorithms 2 (2nd year/2nd term)
 </center>
 
 <!-- YOTUUBE VIDEO 1 -->
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/xexwDTq1ajU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<!-- <center><iframe width="560" height="315" src="https://www.youtube.com/embed/xexwDTq1ajU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center> -->
 
-<!-- YOTUUBE VIDEO 1 -->
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/HVdBNJrJzbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<!-- YOTUUBE VIDEO 2 -->
+<!-- <center><iframe width="560" height="315" src="https://www.youtube.com/embed/HVdBNJrJzbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center> -->
 
-<!-- YOTUUBE VIDEO 1 -->
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/OLoZ8CfuxEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<!-- YOTUUBE VIDEO 3 -->
+<!-- <center><iframe width="560" height="315" src="https://www.youtube.com/embed/OLoZ8CfuxEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center> -->
 
 <!-- PRESENTATION -->
 <center><p>PRESENTATION</p></center>

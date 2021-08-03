@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Rainbow Dash"
-image: ''
-date:   2016-09-03 00:00:00
+title: "Rainbow Dash"
+image: ""
+date: 2016-09-03 00:00:00
 tags:
-- C#
-- Unity
-description: ''
+  - C#
+  - Unity
+description: ""
 categories:
-- team projects
+  - team projects
 ---
 
 {% highlight javascript %}
@@ -25,9 +25,11 @@ Game developed for the Rainbow Jam 2016 with a team of Abertay students.
 <body>
 
 <!-- Place this tag where you want the button to render. -->
+
 <a class="github-button" href="https://github.com/matzar/infinite-runner" data-icon="octicon-star" aria-label="Star matzar/infinite-runner on GitHub">Star</a>
 
 <!-- Place this tag where you want the button to render. -->
+
 <a class="github-button" href="https://github.com/matzar/infinite-runner/fork" data-icon="octicon-repo-forked" aria-label="Fork matzar/infinite-runner on GitHub">Fork</a>
 
 <!-- Place this tag in your head or just before your close body tag. -->
@@ -36,9 +38,9 @@ Game developed for the Rainbow Jam 2016 with a team of Abertay students.
 </body>
 </center>
 
-<center>
+<!-- <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZmV5vOcXYbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
+</center> -->
 
 ## Play
 

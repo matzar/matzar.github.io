@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Visual Novel"
-image: ''
-date:   2016-01-27 00:00:00
+title: "Visual Novel"
+image: ""
+date: 2016-01-27 00:00:00
 tags:
-- Python
-- Ren'Py
-description: ''
+  - Python
+  - Ren'Py
+description: ""
 categories:
-- team projects
+  - team projects
 ---
 
 {% highlight javascript %}
@@ -16,7 +16,7 @@ categories:
 Language: Python
 API: Ren'Py
 Workload: 4 hours
-Game made during AGDS MicroJam on November 8,  2017 with Visual Novel engine Ren’Py.
+Game made during AGDS MicroJam on November 8, 2017 with Visual Novel engine Ren’Py.
 
 {% endhighlight %}
 
@@ -25,12 +25,15 @@ Game made during AGDS MicroJam on November 8,  2017 with Visual Novel engine Ren
 <body>
 
 <!-- Place this tag where you want the button to render. -->
+
 <a class="github-button" href="https://github.com/matzar/ren-py" data-icon="octicon-star" aria-label="Star matzar/ren-py on GitHub">Star</a>
 
 <!-- Place this tag where you want the button to render. -->
+
 <a class="github-button" href="https://github.com/matzar/ren-py/fork" data-icon="octicon-repo-forked" aria-label="Fork matzar/ren-py on GitHub">Fork</a>
 
 <!-- Place this tag where you want the button to render. -->
+
 <a class="github-button" href="https://github.com/matzar/ren-py/archive/master.zip" data-icon="octicon-cloud-download" aria-label="Download matzar/ren-py on GitHub">Download</a>
 
 <!-- Place this tag in your head or just before your close body tag. -->
@@ -39,9 +42,9 @@ Game made during AGDS MicroJam on November 8,  2017 with Visual Novel engine Ren
 </body>
 </center>
 
-<center>
+<!-- <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Vm5y8DxGTPA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
+</center> -->
 
 ## Download
 

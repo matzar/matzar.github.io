@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "dragon maze"
-image: ''
-date:   2015-12-12 00:00:00
+title: "dragon maze"
+image: ""
+date: 2015-12-12 00:00:00
 tags:
-- C#
-- Unity
-description: ''
+  - C#
+  - Unity
+description: ""
 categories:
-- individual projects
+  - individual projects
 ---
 
 {% highlight javascript %}
@@ -28,12 +28,15 @@ Module: Asset Production for Games (1st year)
 <body>
 
 <!-- Place this tag where you want the button to render. -->
+
 <a class="github-button" href="https://github.com/matzar" aria-label="Follow @matzar on GitHub">Follow @matzar</a>
 
 <!-- Place this tag where you want the button to render. -->
+
 <a class="github-button" href="https://github.com/matzar/DragonMazeTheGame" data-icon="octicon-star" aria-label="Star matzar/dragon-maze-the-game on GitHub">Star</a>
 
 <!-- Place this tag where you want the button to render. -->
+
 <a class="github-button" href="https://github.com/matzar/DragonMazeTheGame/fork" data-icon="octicon-repo-forked" aria-label="Fork matzar/dragon-maze-the-game on GitHub">Fork</a>
 
 <!-- Place this tag in your head or just before your close body tag. -->
@@ -42,9 +45,9 @@ Module: Asset Production for Games (1st year)
 </body>
 </center>
 
-<center>
+<!-- <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NuWh7axYdqQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</center>
+</center> -->
 
 ## Download
 
