@@ -289,3 +289,6 @@ __pycache__/
 Thumbs.db
 */.vs
 .DS_Store
+
+# jekyll
+.jekyll-cache

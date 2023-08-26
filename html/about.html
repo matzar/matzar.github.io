@@ -5,14 +5,16 @@ permalink: /html/about/index.html
 description: "Mateusz Zaremba's projects"
 ---
 
-<img itemprop="image" class="img-rounded about_perfil" src="/assets/img/me.png" alt="My profile">
+<img itemprop="image" class="img-rounded about_perfil" src="/assets/img/me.jpg" alt="My profile" />
 
 <h2>source @ github</h2>
 
 <div class="aboutme">
-	<ul class="recent">
-		{% for project in site.git %}
-	    	<li><a href="{{ project.url}}"><h3 class="project-name" itemprop="name">{{ project.name }}</h3></a></li>
-	    {% endfor %}
-	</ul>
+  <ul class="recent">
+    {% for project in site.git %}
+    <li>
+      <a href="{{ project.url}}"><h3 class="project-name" itemprop="name">{{ project.name }}</h3></a>
+    </li>
+    {% endfor %}
+  </ul>
 </div>

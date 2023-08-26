@@ -1,10 +1,14 @@
 {
-  "name": "victorigortemplate",
+  "name": "matzar.github.io",
   "version": "1.0.0",
-  "description": "My jekyll blog template.",
+  "description": "Mateusz Zaremba Portfolio Website.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matzar/matzar.github.io.git"
   },
   "keywords": [
     "frontend",
@@ -16,6 +20,12 @@
     "js"
   ],
   "author": "Victor Igor",
+  "contributors": [
+    {
+      "name": "Mateusz Zaremba",
+      "email": "mat.zar@icloud.com"
+    }
+  ],
   "license": "ISC",
   "devDependencies": {
     "autoprefixer-stylus": "^0.4.0",
