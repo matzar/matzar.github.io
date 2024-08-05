@@ -73,6 +73,8 @@ cv:
 
 # projects in header index
 projects:
+  - name: My contribution to the official npm documentation regarding Docker and private modules
+    url: /npm
   - name: PSVita Game
     url: /psvita
   - name: SFML Networking
