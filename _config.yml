@@ -73,7 +73,7 @@ cv:
 
 # projects in header index
 projects:
-  - name: My contribution to the official npm documentation regarding Docker and private modules
+  - name: My contribution to the npm documentation for securing Docker builds with private npm modules
     url: /npm
   - name: PSVita Game
     url: /psvita
