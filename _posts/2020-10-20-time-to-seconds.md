@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "A lightweight npm package for converting various time formats into seconds effortlessly."
+title: "time-to-seconds"
 image: ""
 date: 2020-10-20 00:00:00
 tags:
   - npm
   - time conversion
   - utilities
-description: ""
+description: "A lightweight npm package for converting various time formats into seconds effortlessly."
 categories:
   - individual projects
 ---
