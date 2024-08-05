@@ -12,7 +12,7 @@ categories:
   - individual projects
 ---
 
-# Time-to-Seconds: A Simple yet Powerful npm Package
+## Time-to-Seconds: A Simple yet Powerful npm Package
 
 In the ever-evolving world of software development, simplifying tasks and optimizing workflows are key to maintaining productivity and efficiency. With that goal in mind, I am excited to introduce my npm package, [time-to-seconds](https://www.npmjs.com/package/time-to-seconds), designed to make time conversions a breeze.
 
