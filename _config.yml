@@ -77,6 +77,8 @@ projects:
     url: /npm
   - name: Introducing time-to-seconds npm package to simplify time conversion
     url: /time-to-seconds
+  - name: Visual Studio Code extension for enhancing HDL development
+    url: /hdl-lang
   - name: PSVita Game
     url: /psvita
   - name: SFML Networking
