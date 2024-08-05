@@ -75,6 +75,8 @@ cv:
 projects:
   - name: My contribution to the npm documentation for securing Docker builds with private npm modules
     url: /npm
+  - name: Introducing time-to-seconds npm package to simplify time conversion
+    url: /time-to-seconds
   - name: PSVita Game
     url: /psvita
   - name: SFML Networking
