@@ -56,7 +56,7 @@ The `time-to-seconds` function takes a string input representing the time and re
 
 ## Contribution
 
-I welcome contributions from the community to enhance the functionality and usability of the `time-to-seconds` package. Feel free to open issues or submit pull requests on the [GitHub repository](https://github.com/your-username/time-to-seconds).
+I welcome contributions from the community to enhance the functionality and usability of the `time-to-seconds` package. Feel free to open issues or submit pull requests on the [GitHub repository](https://github.com/matzar/time-to-seconds).
 
 ## Conclusion
 
