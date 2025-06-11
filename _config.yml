@@ -1,24 +1,26 @@
 # Site settings
-title: Mateusz Zaremba
-description: "Portfolio"
-baseurl: "https://matzar.github.io" # for test: remove string '/space-jekyll-template' to ''
-url: "https://matzar.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+title: Mateusz Zaremba - Portfolio
+description: "Mateusz Zaremba"
+baseurl: "" # for test: remove string '/space-jekyll-template' to ''
+url: "http://matzar.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
+
 # User settings
-username: matzar
-user_title: Mateusz Zaremba
-email: matzaremba@icloud.com
-twitter_username: jollyjellycoco
-github_username:  matzar
-#gplus_username:  loremipsum
-linkedin_public_url: mateusz-zaremba # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
-#disqus_username: loremipsum
-profile_picture: https://mateuszzaremba.weebly.com/uploads/1/0/0/2/100293996/editor/img-1580.jpg?1518114932
+username: Mateusz Zaremba
+user_title:
+email: mat.zar@icloud.com
+skype:
+discord:
+github_username: matzar
+# discord_invite: cj5rgDN # Example: Discord server invite gg extension like in 'https://discord.gg/cj5rgDN'
+twitter_username:
+linkedin_public_url: mat-zar # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
+#disqus_username: carrotcake
+profile_picture: /assets/img/me.png
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
-
 
 # html minify
 compress_html:
@@ -29,36 +31,125 @@ compress_html:
 
 # Links to include in menu navigation
 links:
-  - title: home
-    url: /
-  - title: my posts
-    url: /posts
-  - title: series
+  section_1:
+    - title: home
+      url: /
+      key_trigger: 1
+    - title: posts
+      url: /posts
+      key_trigger: 2
+    - title: projects
+      url: /series
+      key_trigger: 3
+    - title: tags
+      url: /tags
+      key_trigger: 4
+    - title: source
+      url: /about
+      key_trigger: 5
+  section_2:
+    - title: cv.pdf / cv.html
+      url: /cvs
+      key_trigger: c
+    - title: search
+      url: ""
+      key_trigger: s #WARNING: search only works with "s"
+
+# menu
+menu:
+  - name: CV.pdf / CV.html
+    url: /cvs
+  - name: Projects
     url: /series
-  - title: tags
-    url: /tags
-  - title: about me
+  - name: Source
     url: /about
+
+# cv
+cv:
+  - name: cv.pdf
+    url: /cv
+  - name: cv.html
+    url: /markdown-cv
 
 # projects in header index
 projects:
-  - name: mandelbrot-amp
-    url: https://matzar.github.io/mandelbrot-amp/
-  - name: opengl
-    url: https://matzar.github.io/opengl/
-  - name: battle-city-gba
-    url: https://github.com/matzar/battle-city-gba
-  - name: darts-game
+  - name: My contribution to the npm documentation for securing Docker builds with private npm modules
+    url: /npm
+  - name: Introducing time-to-seconds npm package to simplify time conversion
+    url: /time-to-seconds
+  - name: Visual Studio Code extension for enhancing HDL development
+    url: /hdl-lang
+  - name: PSVita Game
+    url: /psvita
+  - name: SFML Networking
+    url: /sfml_networking
+  - name: C++ AMP Mandelbrot set
+    url: /amp_mandelbrot
+  - name: OpenGL 1.1
+    url: /opengl
+  - name: DirectX 11 HLSL
+    url: /directx
+  - name: Game Boy Advance BATTLE CITY remake
+    url: /battle_city
+  - name: Simple darts simulator
+    url: /darts_simulator
+  - name: My first Unity game
+    url: /dragon_maze
+
+# team projects
+team:
+  - name: Serious Game Jam 2018
+    url: /chemistry_game_jam
+  - name: Space Whales
+    url: /space_whales
+  - name: 4-hour game jam
+    url: /visual_novel
+  - name: Rainbow Dash infinite runner
+    url: /rainbow_dash
+  - name: Global Game Jam 2016
+    url: /ggj2016
+
+git:
+  - name: ModernCpp
+    url: https://github.com/matzar/ModernCpp
+  - name: Face emotion recogntion
+    url: https://github.com/matzar/face_emotion_recognition
+  - name: PSVita Game
+    url: https://github.com/matzar/PSVita-Game
+  - name: SFML Networking
+    url: https://github.com/matzar/SFML-Networking
+  - name: C++ AMP Mandelbrot set
+    url: https://github.com/matzar/Mandelbrot-AMP
+  - name: OpenGL 1.1
+    url: https://github.com/matzar/OpenGL
+  - name: DirectX 11 HLSL
+    url: https://github.com/matzar/DirectX-Shaders
+  - name: Game Boy Advance BATTLE CITY remake
+    url: https://github.com/matzar/BattleCity-GBA
+  - name: Simple darts simulator
     url: https://github.com/matzar/darts-game
-  - name: mayan-kitchen
-    url: https://github.com/matzar/mayan-kitchen
-  - name: dragon-maze-the-game
-    url: https://github.com/matzar/dragon-maze-the-game
-  - name: space-whales
+  - name: My first Unity game
+    url: https://github.com/matzar/DragonMazeTheGame
+  - name: Serious Game Jam 2018
+    url: https://github.com/matzar/SeriousGameJam
+  - name: 4-hour game jam
+    url: https://github.com/matzar/ren-py
+  - name: Space Whales
     url: https://github.com/GeorgeRankin/space-whales
-  - name: infinite-runner
+  - name: Rainbow Dash infinite runner
     url: https://github.com/matzar/infinite-runner
-#  - name:
-#    url:
+  - name: Timex
+    url: https://github.com/RetrospectAbertay/Lit
+  - name: Line Tracer UE4
+    url: https://github.com/matzar/LineTracer
+
+#projects:
+#  - name: Timex (Windows | Unity)
+#    url: https://github.com/RetrospectAbertay/Lit
+#  - name: Space Whales (Windows | UE4)
+#    url: https://github.com/GeorgeRankin/space-whales
+#  - name: Rhythm Game (Windows | Unity)
+#    url: https://github.com/jctwood/EGD-RhythmGame
+
 # exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules']
+exclude: ["package.json", "src", "node_modules"]
