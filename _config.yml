@@ -1,8 +1,8 @@
 # Site settings
 title: Mateusz Zaremba - Portfolio
-description: "Mateusz Zaremba"
-baseurl: "" # for test: remove string '/space-jekyll-template' to ''
-url: "http://matzar.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
+description: 'Mateusz Zaremba'
+baseurl: '' # for test: remove string '/space-jekyll-template' to ''
+url: 'http://matzar.github.io' # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
 
 # User settings
 username: Mateusz Zaremba
@@ -52,7 +52,7 @@ links:
       url: /cvs
       key_trigger: c
     - title: search
-      url: ""
+      url: ''
       key_trigger: s #WARNING: search only works with "s"
 
 # menu
@@ -69,7 +69,7 @@ cv:
   - name: cv.pdf
     url: /cv
   - name: cv.html
-    url: /markdown-cv
+    url: /dev-journey
 
 # projects in header index
 projects:
@@ -152,4 +152,4 @@ git:
 #    url: https://github.com/jctwood/EGD-RhythmGame
 
 # exclude my node related stuff
-exclude: ["package.json", "src", "node_modules"]
+exclude: ['package.json', 'src', 'node_modules']
