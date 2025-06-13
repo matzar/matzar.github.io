@@ -57,7 +57,7 @@ links:
 
 # menu
 menu:
-  - name: CV / Detailed CV
+  - name: CV / Dev Journey
     url: /cvs
   - name: Projects
     url: /series
