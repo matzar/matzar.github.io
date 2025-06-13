@@ -57,7 +57,7 @@ links:
 
 # menu
 menu:
-  - name: CV.pdf / CV.html
+  - name: CV / Detailed CV
     url: /cvs
   - name: Projects
     url: /series
@@ -66,9 +66,9 @@ menu:
 
 # cv
 cv:
-  - name: cv.pdf
+  - name: cv
     url: /cv
-  - name: cv.html
+  - name: dev-journey
     url: /dev-journey
 
 # projects in header index
